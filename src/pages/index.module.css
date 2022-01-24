@@ -68,8 +68,7 @@
 
 .bgImage {
   background-color: var(--bg-image-bg-color);
-  height: screen;
-  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url('/img/BG40.svg');
 }
