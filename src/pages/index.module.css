@@ -10,9 +10,35 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 2rem;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
   }
 }
 
@@ -23,11 +49,12 @@
 }
 
 .heading {
+  font-family: 'Obvia';
   font-size: 3.5em;
   font-weight: 700;
   text-align: center;
   margin-top: 70px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .title {
@@ -38,11 +65,9 @@
   margin-bottom: 40px;
 }
 
-.main {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0rem 2rem;
+.bg-image {
+  height: screen;
+  width: 100%;
   background-repeat: no-repeat;
   background-image: var(--bg-image);
 }

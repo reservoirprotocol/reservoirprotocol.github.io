@@ -117,6 +117,10 @@ const config = {
                 label: 'Loot Exchange',
                 href: 'https://www.loot.exchange/',
               },
+              {
+                label: 'Floor Finder',
+                href: 'https://www.floorfinder.xyz/',
+              },
             ],
           },
           {
@@ -128,7 +132,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: '#',
+                href: 'https://twitter.com/reservoir0x',
               },
               {
                 label: 'Blog',

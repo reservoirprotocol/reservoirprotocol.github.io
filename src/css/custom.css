@@ -7,7 +7,13 @@
 
 /* You can override the default Infima variables here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+
+@font-face {
+  font-family: 'Obvia';
+  src: url('/fonts/obvia_bold-webfont.woff2') format('woff2'),
+    url('/fonts/obvia_regular-webfont.woff2') format('woff2');
+}
 
 :root {
   /* RESERVOIR */
@@ -100,7 +106,7 @@ html[data-theme='light'] {
   /* any other colors you wish to overwrite */
 }
 
-.html {
+html {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-variant: none;
@@ -131,7 +137,6 @@ h2,
 h3,
 h4,
 h5 {
-  /* font-family: "Archivo", sans-serif; */
   font-weight: 500;
 }
 
@@ -156,8 +161,12 @@ h4 {
   /* color: var(  --ifm-color-primary); */
 }
 
+.dsla-search-wrapper {
+  width: 170px;
+}
+
 .navbar {
-  align-items: center;
+  height: 70px;
 }
 
 html[data-theme='dark'] .navbar {
@@ -193,30 +202,26 @@ html[data-theme='light'] .navbar {
 }
 
 .navbar__title {
-  /* font-family: "Archivo", sans-serif; */
+  font-family: 'Obvia';
+  font-weight: 700;
+  font-size: 1.3rem;
   color: var(--ifm-color-primary);
   font-weight: 500;
 }
 
 .navbar__link {
-  /* font-family: "Archivo", sans-serif; */
   color: var(--ifm-color-primary);
   font-weight: 400;
 }
 
 .navbar__logo {
-  height: 20px;
-  width: 20px;
+  height: 32px;
+  width: 32px;
 }
 
 .menu__link {
   font-size: 16px;
   font-weight: 400;
-}
-
-html[data-theme='dark'] .navbar__logo {
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(337deg)
-    brightness(112%) contrast(104%);
 }
 
 .docusaurus-highlight-code-line {

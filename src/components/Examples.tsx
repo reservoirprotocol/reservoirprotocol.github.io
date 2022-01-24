@@ -4,30 +4,37 @@ import styles from './Examples.module.css'
 const examples = [
   {
     name: 'Leeve',
-    description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
+    description:
+      'Building NFT liquidity through collection-wide and attribute bidding',
+    href: 'https://levee.bid/',
   },
   {
-    name: 'Instant Capital',
-    description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
+    name: 'Loot Exchange',
+    description:
+      'A Loot community marketplace with 0% marketplace fees and community royalties. The adventure awaits',
+    href: 'https://www.loot.exchange/',
+  },
+  {
+    name: 'Floor Finder',
+    description:
+      'Easy-to-use tool that helps you track floor prices and depth across multiple collections and attributes',
+    href: 'https://www.floorfinder.xyz/',
   },
   {
     name: 'ENS Cafe',
     description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
-  },
-  {
-    name: 'Hack The Floor',
-    description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
+    href: '#builtOnReservoir',
   },
 ]
 
 const Examples = () => {
   return (
     <div className={styles.grid}>
-      {examples.map(({ name, description }) => (
-        <div key={name} className={styles.card}>
+      {examples.map(({ name, description, href }) => (
+        <a href={href} key={name} className={styles.card}>
           <div className={styles.title}>{name}</div>
           <div className={styles.description}>{description}</div>
-        </div>
+        </a>
       ))}
     </div>
   )

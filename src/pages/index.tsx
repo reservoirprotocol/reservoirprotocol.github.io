@@ -16,16 +16,20 @@ const Home: FC = () => {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.heading}>A Global Pool of NFT Liquidity</div>
-        <Features />
-        <div className={styles.title}>Built on Reservoir</div>
-        <Examples />
-      </main>
+      <div className={styles['bg-image']}>
+        <main className={styles.container}>
+          <div className={styles.heading}>A Global Pool of NFT Liquidity</div>
+          <Features />
+          <div id="builtOnReservoir" className={styles.title}>
+            Built on Reservoir
+          </div>
+          <Examples />
+        </main>
+      </div>
     </Layout>
   )
 }

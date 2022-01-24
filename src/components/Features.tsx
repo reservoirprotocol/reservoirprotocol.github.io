@@ -5,26 +5,27 @@ const features = [
   {
     name: 'Composable',
     description:
-      'Quickly build marketplaces with aggregated liquidity and custom fees.',
+      'Quickly build a marketplace with aggregated liquidity and custom fees',
     url: {
       title: 'Read this guide',
-      href: '#',
+      href: '/docs/intro',
     },
     icon: '/icons/Composable.svg',
   },
   {
     name: 'Liquid',
     description:
-      'Tap into instant sell liquidity powered by collection and trait-wide bids.',
+      'Tap into instant sell liquidity powered by collection and trait-wide bids',
     url: {
       title: 'Try it out',
-      href: '#',
+      href: '#builtOnReservoir',
     },
     icon: '/icons/Liquid.svg',
   },
   {
     name: 'Scalable',
-    description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
+    description:
+      'Powerful API that gives granular access to pricing data without limits',
     url: {
       title: 'View docs',
       href: '/docs/core-components/API/overview',
@@ -33,7 +34,7 @@ const features = [
   },
   {
     name: 'Open',
-    description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
+    description: 'Permissionless order book with no centralized gatekeeper',
     url: {
       title: 'How it works',
       href: '#',
