@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreservoir_docs=self.webpackChunkreservoir_docs||[]).push([[352],{7006:function(e){e.exports=JSON.parse('{"specUrl":"https://reservoir-metadata.vercel.app/api/yaml","type":"url","content":"https://reservoir-metadata.vercel.app/api/yaml"}')}}]);
