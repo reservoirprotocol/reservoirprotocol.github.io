@@ -39,6 +39,9 @@
   display: flex;
   gap: 7px;
   flex-direction: column;
+}
+
+a.card:hover {
   text-decoration: none;
 }
 

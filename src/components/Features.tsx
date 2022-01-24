@@ -3,6 +3,25 @@ import React from 'react'
 
 const features = [
   {
+    name: 'Open',
+    description: 'Permissionless order book with no centralized gatekeeper',
+    url: {
+      title: 'How it works',
+      href: '#',
+    },
+    icon: '/icons/Open.svg',
+  },
+  {
+    name: 'Scalable',
+    description:
+      'Powerful API that gives granular access to pricing data without limits',
+    url: {
+      title: 'View docs',
+      href: '/docs/core-components/API/overview',
+    },
+    icon: '/icons/Scalable.svg',
+  },
+  {
     name: 'Composable',
     description:
       'Quickly build a marketplace with aggregated liquidity and custom fees',
@@ -21,25 +40,6 @@ const features = [
       href: '#builtOnReservoir',
     },
     icon: '/icons/Liquid.svg',
-  },
-  {
-    name: 'Scalable',
-    description:
-      'Powerful API that gives granular access to pricing data without limits',
-    url: {
-      title: 'View docs',
-      href: '/docs/core-components/API/overview',
-    },
-    icon: '/icons/Scalable.svg',
-  },
-  {
-    name: 'Open',
-    description: 'Permissionless order book with no centralized gatekeeper',
-    url: {
-      title: 'How it works',
-      href: '#',
-    },
-    icon: '/icons/Open.svg',
   },
 ]
 

@@ -22,8 +22,8 @@ const examples = [
   },
   {
     name: 'ENS Cafe',
-    description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
-    href: '#builtOnReservoir',
+    description: 'Community marketplace for buying and selling ENS domains',
+    href: 'https://www.ens.cafe/',
   },
 ]
 
