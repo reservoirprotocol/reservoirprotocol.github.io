@@ -83,7 +83,7 @@ const config = {
             className: 'persistent',
           },
           {
-            to: '#',
+            to: 'https://discord.gg/j5K9fESNwh',
             label: 'Discord',
             position: 'left',
             className: 'persistent',
@@ -98,11 +98,11 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                href: '#',
+                href: '/docs/intro',
               },
               {
                 label: 'Github',
-                href: '#',
+                href: 'https://github.com/reservoirprotocol/reservoir-docs',
               },
             ],
           },
@@ -111,11 +111,11 @@ const config = {
             items: [
               {
                 label: 'Levee',
-                href: '#',
+                href: 'https://levee.bid/',
               },
               {
                 label: 'Loot Exchange',
-                href: '#',
+                href: 'https://www.loot.exchange/',
               },
             ],
           },
@@ -124,7 +124,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: '#',
+                href: 'https://discord.gg/j5K9fESNwh',
               },
               {
                 label: 'Twitter',

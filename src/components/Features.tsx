@@ -27,7 +27,7 @@ const features = [
     description: 'Rerum nam aliquam itaque iusto. Ut officia quia tenetu',
     url: {
       title: 'View docs',
-      href: '#',
+      href: '/docs/core-components/API/overview',
     },
     icon: '/icons/Scalable.svg',
   },

@@ -20,6 +20,11 @@
   --card-padding: 25px;
   --card-border-radius: 10px;
   --icon-fill-color: inherit;
+  --bg-image: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(176, 30, 225, 0.1) 0%,
+    rgba(33, 36, 41, 0) 100%
+  );
   /* -------------------------- */
 
   --ifm-color-primary: #3578e5;
@@ -77,9 +82,7 @@ html[data-theme='dark'] {
   --ifm-navbar-background-color: #191b1f;
   --ifm-global-shadow-md: 0 5px 4px rgba(255, 255, 255, 0.448);
 
-  background-position: 0px -30vh;
-  background-repeat: no-repeat;
-  background-image: radial-gradient(
+  --bg-image: radial-gradient(
     50% 50% at 50% 50%,
     rgba(176, 30, 225, 0.1) 0%,
     rgba(33, 36, 41, 0) 100%
@@ -93,14 +96,6 @@ html[data-theme='light'] {
   --ifm-color-secondary: white;
   --ifm-background-color: #f1f1f2;
   --ifm-hr-border-color: #f1f1f2;
-
-  background-position: 0px -30vh;
-  background-repeat: no-repeat;
-  background-image: radial-gradient(
-    50% 50% at 50% 50%,
-    rgba(255, 0, 122, 0.1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
 
   /* any other colors you wish to overwrite */
 }
