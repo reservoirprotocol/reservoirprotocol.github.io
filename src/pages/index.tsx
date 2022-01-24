@@ -20,7 +20,7 @@ const Home: FC = () => {
           rel="stylesheet"
         />
       </Head>
-      <div className={styles['bg-image']}>
+      <div className={styles.bgImage}>
         <main className={styles.container}>
           <div className={styles.heading}>A Global Pool of NFT Liquidity</div>
           <Features />

@@ -15,6 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0rem 2rem;
+  padding-bottom: 90px;
 }
 @media (min-width: 640px) {
   .container {
@@ -42,19 +43,19 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .heading {
   font-family: 'Obvia';
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 700;
   text-align: center;
-  margin-top: 70px;
+  padding-top: 70px;
   margin-bottom: 70px;
+}
+
+@media (min-width: 640px) {
+  .heading {
+    font-size: 3.5em;
+  }
 }
 
 .title {
@@ -65,9 +66,10 @@
   margin-bottom: 40px;
 }
 
-.bg-image {
+.bgImage {
+  background-color: var(--bg-image-bg-color);
   height: screen;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: var(--bg-image);
+  background-image: url('/img/BG40.svg');
 }
