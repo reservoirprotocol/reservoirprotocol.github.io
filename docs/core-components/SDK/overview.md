@@ -26,7 +26,7 @@ The Wyvern Exchange is a decentralized exchange on Ethereum, used mostly by Open
 `Approvals` - Users must approve their Proxy to move assets (once per NFT contract)
 `Token Transfer Proxy` - A shared Proxy used by all users for making WETH bids
 
-
+    
 
 
 

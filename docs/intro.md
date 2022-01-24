@@ -2,34 +2,27 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The NFT market exploded in 2021, yet it still remains relatively immature and illiquid. Most secondary trading happens on a single marketplace, orders are stored in centralized databases and the market making industry consists of a few bots making low-ball offers.
 
-## Getting Started
+This is largely because NFT marketplaces follow a monolithic model, tightly coupling their front-ends, order books and swap contracts, which fragments liquidity and creates bottlenecks for innovation. 
 
-Get started by **creating a new site**.
+Reservoir unbundles this model with an open and permissionless order book that aggregates all liquidity into a single shared pool. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+![Reservoir Modular Architecture](/img/modular.png)
 
-## Generate a new site
+Reservoir’s modular architecture is a new primitive that unlocks powerful possibilities:
 
-Generate a new Docusaurus site using the **classic template**:
+1) An abundance of marketplaces can emerge, all trying different approaches or focusing on different communities, without fragmenting liquidity. 
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+2) Tools can specialize on one segment of the market, like wallets offering built-in sell functionality, or a rarity explorer that is focused on the buying experience.
 
-## Start your site
+3) Novel new forms of liquidity (AMMs, collection-wide offers, etc) can quickly find adoption by feeding into all of the marketplaces and interfaces leveraging the shared order book.
 
-Run the development server:
+4) Anyone can provide liquidity, without worrying about API keys or rate limits, making it more accessible to both professional market makers and regular collectors.
 
-```shell
-cd my-website
+Reservoir is not another marketplace. It's a new layer in the stack, designed to complement the layers above and below. WAGMI. 
 
-npx docusaurus start
-```
+By fully embracing the web3 principles of open data and composability, Reservoir aims to unleash a wave of innovation at all layers of the stack, bringing vastly improved liquidity to NFTs.
 
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
