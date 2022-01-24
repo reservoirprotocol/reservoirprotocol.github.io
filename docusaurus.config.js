@@ -16,11 +16,7 @@ const config = {
   organizationName: 'UnevenLabs', // Usually your GitHub org/user name.
   projectName: 'reservoir-docs', // Usually your repo name.
 
-  plugins: [
-    require.resolve('@cmfcmf/docusaurus-search-local'),
-    // require.resolve('docusaurus-tailwindcss'),
-    'docusaurus-tailwindcss',
-  ],
+  plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
 
   presets: [
     [
@@ -70,66 +66,28 @@ const config = {
         items: [
           {
             to: '/docs/intro',
-            label: 'Tutorial',
+            label: 'Docs',
             position: 'left',
             className: 'persistent',
           },
-          {
-            to: '/docs/core-components/API/overview',
-            label: 'API',
-            position: 'left',
-            className: 'persistent',
-          },
-          {
-            to: '/docs/core-components/SDK/overview',
-            label: 'SDK',
-            position: 'left',
-            className: 'persistent',
-          },
-          // {
-          //   to: "/sdk/introduction",
-          //   label: "SDK",
-          //   position: "left",
-          //   className: "persistent",
-          // },
-          // {
-          //   to: "/protocol/reference/smart-contracts",
-          //   label: "Contracts",
-          //   position: "left",
-          //   className: "persistent",
-          // },
-          // {
-          //   to: "/sdk/subgraph/subgraph-data",
-          //   label: "API",
-          //   position: "left",
-          //   className: "persistent",
-          // },
-          // {
-          //   to: "/protocol/concepts/governance/overview",
-          //   label: "Governance",
-          //   position: "left",
-          //   className: "persistent",
-          // },
           {
             href: 'https://github.com/reservoirprotocol/reservoir-docs',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
             className: 'persistent',
           },
-          // {
-          //   type: "localeDropdown",
-
-          //   //// Optional
-          //   position: "right",
-          //   // Add additional dropdown items at the beginning/end of the dropdown.
-          //   dropdownItemsBefore: [],
-          //   dropdownItemsAfter: [
-          //     {
-          //       to: "https://my-site.com/help-us-translate",
-          //       label: "Help us translate",
-          //     },
-          //   ],
-          // },
+          {
+            to: '#',
+            label: 'Blog',
+            position: 'left',
+            className: 'persistent',
+          },
+          {
+            to: '#',
+            label: 'Discord',
+            position: 'left',
+            className: 'persistent',
+          },
         ],
       },
       footer: {

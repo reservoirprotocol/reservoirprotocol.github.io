@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  border-width: 1px;
+  border-color: var(--card-border-color);
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.description {
+  color: var(--card-body-text-color);
+  flex-grow: 1;
+}
+
+.anchor {
+  color: var(--card-anchor-color);
+}
+
+.icon {
+  width: 35px;
+  filter: var(--icon-fill-color);
+}
