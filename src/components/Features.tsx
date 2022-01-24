@@ -7,7 +7,7 @@ const features = [
     description: 'Permissionless order book with no centralized gatekeeper',
     url: {
       title: 'How it works',
-      href: '#',
+      href: 'https://reservoir.mirror.xyz/',
     },
     icon: '/icons/Open.svg',
   },

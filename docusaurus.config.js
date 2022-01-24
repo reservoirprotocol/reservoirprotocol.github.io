@@ -77,7 +77,7 @@ const config = {
             className: 'persistent',
           },
           {
-            to: '#',
+            to: 'https://reservoir.mirror.xyz/',
             label: 'Blog',
             position: 'left',
             className: 'persistent',
@@ -140,7 +140,7 @@ const config = {
               },
               {
                 label: 'Blog',
-                href: '#',
+                href: 'https://reservoir.mirror.xyz/',
               },
             ],
           },
