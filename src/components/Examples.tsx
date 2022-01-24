@@ -3,7 +3,7 @@ import styles from './Examples.module.css'
 
 const examples = [
   {
-    name: 'Leeve',
+    name: 'Levee',
     description:
       'Building NFT liquidity through collection-wide and attribute bidding',
     href: 'https://levee.bid/',
