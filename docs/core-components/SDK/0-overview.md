@@ -1,6 +1,6 @@
 # Overview
 
-The Reservoir SDK enables the creation and filling of orders that are part of the Reservoir Order Book. It abstracts the complexity of handling different exchange contracts and order types, giving developers a set of simple methods to interact with. 
+The Reservoir SDK enables the creation and filling of orders that are part of the Reservoir Order Book. It abstracts the complexity of handling different exchange contracts and order types, giving developers a set of simple methods to interact with.
 
 ## Installation
 
@@ -24,10 +24,6 @@ When interacting with the Wyvern Exchange, you most commonly interact with the f
 `wyvern.order` - Build an order object, in order sign it  
 `wyvern.exchange` - Instantiate an instance of the exchange contract, to interact with it (fill orders, etc)
 
-
 ## Integration
 
 We are in the process of refactoring the SDK, in order to make it more general purpose, and abstract common tasks like checking for approvals, waiting for transactions to confirm, etc. In the meantime, you need to use the low level methods. The following pages demonstrate how to do all of the most common actions.
-
-
-

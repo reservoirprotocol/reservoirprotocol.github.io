@@ -127,10 +127,6 @@ const config = {
                 label: 'Floor Finder',
                 href: 'https://www.floorfinder.xyz/',
               },
-              {
-                label: 'ENS Cafe',
-                href: 'https://www.ens.cafe/',
-              },
             ],
           },
           {

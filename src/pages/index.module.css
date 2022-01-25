@@ -44,6 +44,7 @@
 }
 
 .heading {
+  color: #fff;
   font-family: 'Obvia';
   font-size: 2.5em;
   font-weight: 700;
@@ -54,11 +55,13 @@
 
 @media (min-width: 640px) {
   .heading {
+    padding-top: 200px;
     font-size: 3.5em;
   }
 }
 
 .title {
+  color: #fff;
   font-size: 2em;
   font-weight: 700;
   text-align: center;
@@ -67,8 +70,8 @@
 }
 
 .bgImage {
-  background-color: var(--bg-image-bg-color);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('/img/BG40.svg');
+  background-image: url('/img/BG.png');
 }

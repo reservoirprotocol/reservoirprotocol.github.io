@@ -7,7 +7,7 @@ const features = [
     description: 'Permissionless order book with no centralized gatekeeper',
     url: {
       title: 'How it works',
-      href: 'https://reservoir.mirror.xyz/',
+      href: '/docs/intro',
     },
     icon: '/icons/Open.svg',
   },
@@ -17,7 +17,7 @@ const features = [
       'Powerful API that gives granular access to pricing data without limits',
     url: {
       title: 'View docs',
-      href: '/docs/core-components/API/overview',
+      href: '/docs/core-components/API',
     },
     icon: '/icons/Scalable.svg',
   },
@@ -27,7 +27,7 @@ const features = [
       'Quickly build a marketplace with aggregated liquidity and custom fees',
     url: {
       title: 'Read this guide',
-      href: '/docs/intro',
+      href: '/docs/guides/community-marketplace',
     },
     icon: '/icons/Composable.svg',
   },
@@ -37,7 +37,7 @@ const features = [
       'Tap into instant sell liquidity powered by collection and trait-wide bids',
     url: {
       title: 'Try it out',
-      href: '#builtOnReservoir',
+      href: 'https://levee.bid/',
     },
     icon: '/icons/Liquid.svg',
   },

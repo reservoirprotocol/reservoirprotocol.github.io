@@ -32,11 +32,13 @@
 }
 
 .card {
-  background-color: var(--card-bg);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
   border-radius: var(--card-border-radius);
   padding: var(--card-padding);
-  border: 1px solid var(--card-border-color);
+  border: 1px solid #545559;
   display: flex;
+  align-items: center;
   gap: 7px;
   flex-direction: column;
 }
@@ -47,16 +49,22 @@
 }
 
 .description {
-  color: var(--card-body-text-color);
+  color: #ededed;
+  text-align: center;
   flex-grow: 1;
 }
 
 .anchor {
   font-family: 'Montserrat', sans-serif;
-  color: var(--card-anchor-color);
+  color: #a45bdc;
+}
+
+a.anchor:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .icon {
   width: 35px;
-  filter: var(--icon-fill-color);
+  filter: invert(100%);
 }
