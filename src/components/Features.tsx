@@ -37,7 +37,7 @@ const features = [
       'Tap into instant sell liquidity powered by collection and trait-wide bids',
     url: {
       title: 'Try it out',
-      href: '#builtOnReservoir',
+      href: 'https://levee.bid/',
     },
     icon: '/icons/Liquid.svg',
   },
