@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Reservoir Protocol Overview
 
-The Reservoir protocol is a decentralized NFT order book designed to grow NFT Liquidity.
+The Reservoir protocol is a decentralized NFT order book designed to grow NFT Liquidity. It has many pieces, which all come together to form a comprehensive liquidity toolkit.
 
 ## Core Components
 

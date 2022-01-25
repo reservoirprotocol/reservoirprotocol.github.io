@@ -71,7 +71,13 @@ const config = {
             className: 'persistent',
           },
           {
-            href: 'https://github.com/reservoirprotocol/reservoir-docs',
+            to: '/docs/core-components/api',
+            label: 'API',
+            position: 'left',
+            className: 'persistent',
+          },
+          {
+            href: 'https://github.com/reservoirprotocol',
             label: 'GitHub',
             position: 'left',
             className: 'persistent',

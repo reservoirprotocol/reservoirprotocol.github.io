@@ -22,3 +22,8 @@ The core team runs a production-ready instance of the Reservoir API, which is fr
 https://mainnet-api-v4.reservoir.tools/documentation  
 https://rinkeby-api-v4.reservoir.tools/documentation
 
+## Highlights
+
+- Get tokens in a collection, sorted by price ([example](https://mainnet-api-v4.reservoir.tools/tokens?collection=blitmap))
+- Get the price of every on-sale token, in one API ([example](https://mainnet-api-v4.reservoir.tools/tokens/floor?collection=blitmap))
+
