@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Introduction
 
 The NFT market exploded in 2021, yet it still remains relatively immature and illiquid. Most secondary trading happens on a single marketplace, orders are stored in centralized databases and the market making industry consists of a few bots making low-ball offers.

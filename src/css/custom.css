@@ -105,7 +105,7 @@ html[data-theme='dark'] {
 html[data-theme='light'] {
   --ifm-color-primary: black;
   --ifm-color-secondary: white;
-  --ifm-background-color: #f1f1f2;
+  --ifm-background-color: white;
   --ifm-hr-border-color: #f1f1f2;
   --bg-image: url('/img/BG40.svg');
   --bg-image-bg-color: white;
