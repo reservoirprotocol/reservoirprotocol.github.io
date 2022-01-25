@@ -13,8 +13,8 @@ The Data Lake is a light-weight protocol on top of Arweave, with transaction tha
 
 ```
 App-Name: Reservoir Protocol
-App-Version: 0.0.1  
-Network: mainnet / rinkeby  
+App-Version: 0.0.1
+Network: mainnet / rinkeby
 ```
 
 [Example Transaction](https://viewblock.io/arweave/tx/DomOJe5Efye10uJudxLQMubQPQtyFJTTxLoNO0ttjIw)
@@ -30,4 +30,4 @@ The data is an array of objects, each with a kind:
 
 [Example Blob](https://b2ey4jpoir7spnos4jxhoewqgltnapiloikjju6exigtws3nrsga.arweave.net/DomOJe5Efye10uJudxLQMubQPQtyFJTTxLoNO0ttjIw)
 
-The system is designed to be extensible, with new kinds added over time. This can either be new exchanges, with their own order formats, or any other data that might be relevant. For example, mutable NFT metadata like collection descriptions or royalties could be stored in Reservoir's Data Lake, instead of needing to be configured on each NFT marketplace. 
+The system is designed to be extensible, with new kinds added over time. This can either be new exchanges, with their own order formats, or any other data that might be relevant. For example, mutable NFT metadata like collection descriptions or royalties could be stored in Reservoir's Data Lake, instead of needing to be configured on each NFT marketplace.

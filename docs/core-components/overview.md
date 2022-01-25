@@ -21,18 +21,18 @@ A system for quantifying the liquidity that was provided over time, in order to 
 ## Software
 
 **[Indexer](indexer)**  
-A node that takes care of reading/writing from the [Data Lake](data-lake), and reconstructing Order Book  
+A node that takes care of reading/writing from the [Data Lake](data-lake), and reconstructing Order Book
 
 **[API](api)**  
-A simple interface for interacting with the Reservoir Aggregated Order Book  
+A simple interface for interacting with the Reservoir Aggregated Order Book
 
 **[SDK](SDK/overview)**  
-Toolkit for abstracting the complexity of creating & filling liquidity  
+Toolkit for abstracting the complexity of creating & filling liquidity
 
 ## Standards
 
 **[Metadata](metadata)**  
-A flexible system for indexing NFT metadata, that supports community enhancements (rarity scores, new attributes, dependencies, etc)  
+A flexible system for indexing NFT metadata, that supports community enhancements (rarity scores, new attributes, dependencies, etc)
 
 **[Tokens Sets](token-sets)**  
 A spec for mapping subjective metadata (collections, traits, etc) to objective token data (contracts, token ids, etc), to enable orders on an arbitrary set of tokens
