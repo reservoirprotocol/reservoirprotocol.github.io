@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 The Reservoir SDK enables the creation and filling of orders that are part of the Reservoir Order Book. It abstracts the complexity of handling different exchange contracts and order types, giving developers a set of simple methods to interact with. 
 
 ## Installation
