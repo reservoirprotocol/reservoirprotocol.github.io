@@ -7,8 +7,14 @@ import styles from './index.module.css'
 
 const Home: FC = () => {
   return (
-    <Layout title="Reservoir Docs" description="Reservoir Documentation">
+    <Layout>
       <Head>
+        <title>Home | Reservoir</title>
+        <meta
+          name="description"
+          content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
+        />
+        <meta name="keywords" content="NFT, API, Protocol" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

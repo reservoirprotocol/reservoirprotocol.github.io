@@ -85,7 +85,6 @@ html[data-theme='light'] {
   --ifm-color-secondary: white;
   --ifm-background-color: white;
   --ifm-hr-border-color: #f1f1f2;
-  --bg-image: url('/img/BG40.svg');
   --bg-image-bg-color: white;
 
   /* any other colors you wish to overwrite */
