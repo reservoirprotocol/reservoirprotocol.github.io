@@ -6,5 +6,6 @@ Reservoir introduces a 3rd option. Orders are stored on-chain, but on a differen
 
 Anyone can run the open-source Reservoir Indexer that combines raw order data from Arweave, with ownership data from Ethereum, to trustlessly reconstruct the state of the order book. Sprinkle in an advanced metadata indexing engine and you get the Reservoir API, a one-stop shop for building liquidity-powered NFT applications.
 
-
 Normally Arweave's five minute block times would be too slow for a fast-moving order book, but here's the cool part: we don't actually need to wait for blocks to be confirmed. Because the orders are targeted at a different chain, the Indexer can ingest them as soon as they hit the mempool, making the Reservoir Order Book real-time, highly available and globally consistent.
+
+![Reservoir Stack](/img/reservoir2nd.png)

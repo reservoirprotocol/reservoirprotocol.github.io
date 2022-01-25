@@ -6,6 +6,8 @@ This is largely because NFT marketplaces follow a monolithic model, tightly coup
 
 Reservoir unbundles this model with an open and permissionless order book that aggregates all liquidity into a single shared pool.
 
+![Reservoir Modular Architecture](/img/reservoir1st.png)
+
 Reservoir’s modular architecture is a new primitive that unlocks powerful possibilities:
 
 1. An abundance of marketplaces can emerge, all trying different approaches or focusing on different communities, without fragmenting liquidity.
