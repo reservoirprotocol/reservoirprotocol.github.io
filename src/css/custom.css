@@ -17,17 +17,8 @@
 
 :root {
   /* RESERVOIR */
-  --card-bg: #fff;
-  --card-border-color: #ededed;
-  --card-anchor-color: #9840dc;
-  --card-body-text-color: #5f6063;
-  --card-title-text-color: #1a1a1a;
-  --card-svg-fill-color: #1a1a1a;
   --card-padding: 25px;
   --card-border-radius: 10px;
-  --icon-fill-color: inherit;
-  --bg-image: url('/img/BG40.svg');
-  --bg-image-bg-color: white;
   /* --bg-image: radial-gradient(
     50% 50% at 50% 50%,
     rgba(176, 30, 225, 0.1) 0%,
@@ -72,19 +63,6 @@
 }
 
 html[data-theme='dark'] {
-  /* RESERVOIR */
-  --card-bg: #1a1a1a;
-  --card-border-color: #545559;
-  --card-anchor-color: #9840dc;
-  --card-body-text-color: #ededed;
-  --card-title-text-color: #ffffff;
-  --card-svg-fill-color: #ffffff;
-  --icon-fill-color: invert(100%);
-  --bg-brightness: brightness(0.2);
-  --bg-image: url('/img/BG100.svg');
-  --bg-image-bg-color: black;
-  /* -------------------------- */
-
   --ifm-color-primary: white;
   --ifm-color-primary-dark: #5a91ea;
 
@@ -174,6 +152,10 @@ a > span > svg {
 
 .dsla-search-wrapper {
   display: none;
+}
+
+.aa-DetachedSearchButton {
+  border-radius: 12px !important;
 }
 
 @media (min-width: 640px) {

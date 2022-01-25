@@ -20,11 +20,6 @@ const examples = [
       'Easy-to-use tool that helps you track floor prices and depth across multiple collections and attributes',
     href: 'https://www.floorfinder.xyz/',
   },
-  {
-    name: 'ENS Cafe',
-    description: 'Community marketplace for buying and selling ENS domains',
-    href: 'https://www.ens.cafe/',
-  },
 ]
 
 const Examples = () => {

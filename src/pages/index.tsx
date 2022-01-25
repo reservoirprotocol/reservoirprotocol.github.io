@@ -22,7 +22,7 @@ const Home: FC = () => {
       </Head>
       <div className={styles.bgImage}>
         <main className={styles.container}>
-          <div className={styles.heading}>A Global Pool of NFT Liquidity</div>
+          <div className={styles.heading}>A global pool of NFT liquidity</div>
           <Features />
           <div id="builtOnReservoir" className={styles.title}>
             Built on Reservoir
