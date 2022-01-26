@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Reservoir',
+        title: 'reservoir',
         logo: {
           alt: 'Reservoir Logo',
           src: 'img/reservoir.svg',
