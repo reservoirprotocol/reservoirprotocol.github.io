@@ -50,7 +50,7 @@
   font-weight: 700;
   text-align: center;
   padding-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 640px) {
@@ -74,4 +74,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url('/img/BG.png');
+}
+
+.subTitle {
+  color: #fff;
+  text-align: center;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
 }

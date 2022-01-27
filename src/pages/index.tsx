@@ -74,7 +74,14 @@ const Home: FC = () => {
       </Head>
       <div className={styles.bgImage}>
         <main className={styles.container}>
-          <div className={styles.heading}>A global pool of NFT liquidity</div>
+          <div className={styles.heading}>
+            Quickly build NFT marketplaces &amp; tools
+          </div>
+          <div className={styles.subTitle}>
+            Reservoir is a web3-native NFT order book protocol and framework
+            powering marketplaces and tools all sharing a global pool of
+            liquidity.
+          </div>
           <Features />
           <div id="builtOnReservoir" className={styles.title}>
             Built on Reservoir
