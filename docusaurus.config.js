@@ -94,6 +94,12 @@ const config = {
             position: 'left',
             className: 'persistent',
           },
+          {
+            to: 'https://docs.google.com/forms/d/14RD9DLj9UV3FP7-UN08bfadqRWSNMe7SDZgwMh4UTSs/edit',
+            label: 'Jobs',
+            position: 'left',
+            className: 'persistent',
+          },
         ],
       },
       footer: {
