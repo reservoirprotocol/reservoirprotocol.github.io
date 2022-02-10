@@ -4,6 +4,7 @@ import Head from '@docusaurus/Head'
 import Features from '../components/Features'
 import Examples from '../components/Examples'
 import styles from './index.module.css'
+import { HiCheckCircle } from 'react-icons/hi'
 
 const Home: FC = () => {
   return (
@@ -72,15 +73,64 @@ const Home: FC = () => {
         <meta property="og:image:height" content="640" />
         <meta property="og:image:alt" content="Reservoir Protocol banner" />
       </Head>
-      <div className={styles.bgImage}>
+      <div
+        style={{
+          background:
+            'linear-gradient(92.88deg, rgb(21 24 34) 9.16%, rgb(14 11 30) 43.89%, rgb(0 0 0) 64.72%)',
+        }}
+      >
         <main className={styles.container}>
           <div className={styles.heading}>
-            Quickly build NFT marketplaces &amp; tools
+            Build NFT apps
+            <br />
+            powered by liquidity
           </div>
           <div className={styles.subTitle}>
-            Reservoir is a web3-native NFT order book protocol and framework
-            powering marketplaces and tools all sharing a global pool of
-            liquidity.
+            Reservoir gives open and permissionless access to aggregated NFT
+            liquidity, unlocking powerful new use cases
+          </div>
+          <div
+            style={{
+              display: 'grid',
+              justifyItems: 'center',
+              marginBottom: '110px',
+            }}
+          >
+            <a
+              style={{
+                display: 'inline-block',
+                padding: '10px 25px',
+                textDecoration: 'none',
+                background:
+                  'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
+                borderRadius: '5px',
+              }}
+              href="/docs/core-components/api"
+            >
+              View the API docs
+            </a>
+          </div>
+
+          <div className={styles.useCases}>
+            {[
+              'Community Marketplace',
+              'Portfolio Tracker',
+              'Instant Sell',
+              'Market Maker',
+              'Decentralized Order Book',
+              'Pricing Model',
+              'Trait Explorer',
+              'Floor Sweeper',
+            ].map((item) => (
+              <div
+                style={{ display: 'flex', gap: '5px', alignItems: 'center' }}
+              >
+                <HiCheckCircle style={{ height: '15px', width: '15px' }} />
+                <div key={item} style={{ padding: '10px 0px' }}>
+                  {item}
+                </div>
+              </div>
+            ))}
           </div>
           <Features />
           <div id="builtOnReservoir" className={styles.title}>
