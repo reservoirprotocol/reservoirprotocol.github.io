@@ -64,9 +64,9 @@ if (json.steps.length - 1 >= index) {
 
 The API supports the following actions:
 
-- Buy Now
-- Accept Bid
-- Make Bid
-- List for Sale
+- Buy
+- Sell
+- Bid
+- List
 
 Note: in order to "buy" a token, you need to fill a sell order. This can be confusing and we plan to make it clearer in a future version of the API!
