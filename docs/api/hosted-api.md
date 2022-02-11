@@ -22,7 +22,7 @@ You can use the API in 3 modes:
 
 Beyond higher limits, the main reason for using an API Key is so that we can reach out to you to provide support, such as if you're using an old version and need to upgrade.
 
-Once you've registered an API key below, pass the following header in all requests:
+Once you've [registered](https://mainnet-api-v4.reservoir.tools/documentation#/apikeys/postApikey) an API key below, pass the following header in all requests:
 
 ```
 x-api-key: {myKey}
