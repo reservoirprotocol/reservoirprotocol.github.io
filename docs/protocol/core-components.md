@@ -1,5 +1,5 @@
 ---
-sidebar_label: Overview
+sidebar_label: Core Components
 sidebar_position: 1
 ---
 
@@ -23,11 +23,8 @@ A system for quantifying the liquidity that was provided over time, in order to 
 **[Indexer](indexer)**  
 A node that takes care of reading/writing from the [Data Lake](data-lake), and reconstructing Order Book
 
-**[API](api)**  
+**[API](../api/overview)**  
 A simple interface for interacting with the Reservoir Aggregated Order Book
-
-**[SDK](SDK/overview)**  
-Toolkit for abstracting the complexity of creating & filling liquidity
 
 ## Standards
 

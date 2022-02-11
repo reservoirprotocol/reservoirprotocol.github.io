@@ -3,7 +3,7 @@ sidebar_label: Overview
 sidebar_position: 1
 ---
 
-# Reservoir API Overview
+# Reservoir API
 
 The Reservoir API is an all-in-one endpoint for building NFT applications. This includes everything from market exploration tools to full-featured marketplaces. It gives access to:
 
@@ -15,10 +15,11 @@ The Reservoir API is an all-in-one endpoint for building NFT applications. This 
 
 Best of all, the API is powered by an open-source Indexer that runs entirely off open and permissionless data sources. This means there are no centralized gatekeepers to depend on. You can use a hosted version of the API to quickly get up and running, or run your own if you need more control.
 
-## Highlights
+## Next Steps
 
-- Get tokens in a collection, sorted by price ([example](https://mainnet-api-v4.reservoir.tools/tokens?collection=blitmap))
-- Get the price of every on-sale token, in one API ([example](https://mainnet-api-v4.reservoir.tools/tokens/floor?collection=blitmap))
-- Get a summary of a user's portfolio, grouped by collection
-- Explore trait floors and recent sales
+1) Get started with the [Hosted API](hosted-api)  
+2) Explore some of the popular [Use Cases](use-cases/get-token-prices)  
+3) Fork the [Sample Marketplace](https://github.com/reservoirprotocol/sample-marketplace)
+
+
 

@@ -1,3 +1,10 @@
+---
+sidebar_label: Buy and Sell
+sidebar_position: 10
+---
+
+# Create & Fill Orders (Buy & Sell)
+
 Reservoir gives you access to a fully functional aggregated order book that strives to be a global pool of _all_ NFT liquidity. You can both create orders (list for sale, make an offer) or fill orders (buy token, accept offer).
 
 Importantly, because its a shared order book, tools can specialize on different parts of the market. For example, a market maker could generate bids and feed them directly into the order book, while a wallet could place a sell button next to every NFT in a user's wallet, giving them access to those bids. As more integrations get built, the network effects of the shared order book grow stronger.
@@ -8,12 +15,12 @@ When executing orders, there are often multiple steps, like approving an exchang
 
 The flow looks like this:
 
-1) Call the `execute` API with the action you want to take (create or fill)
+1) Call the `execute` API with the action you want to take (create or fill)  
 2) Iterate through the steps, taking the necessary action
 
 There are two types of steps:
 
-`transaction` > An on-chain transaction that needs to be submitted
+`transaction` > An on-chain transaction that needs to be submitted  
 `signature` > A message that needs to be signed
 
 The API returns the exact data that you need to sign/submit, so it can be fed directly into an Ethereum library like Ethers.js. 
@@ -64,9 +71,9 @@ if (json.steps.length - 1 >= index) {
 
 The API supports the following actions:
 
-- Buy
-- Sell
-- Bid
-- List
+- [Buy](https://mainnet-api-v4.reservoir.tools/documentation#/execute/getExecuteBuy)
+- [Sell](https://mainnet-api-v4.reservoir.tools/documentation#/execute/getExecuteSell)
+- [Bid](https://mainnet-api-v4.reservoir.tools/documentation#/execute/getExecuteBid)
+- [List](https://mainnet-api-v4.reservoir.tools/documentation#/execute/getExecuteList)
 
-Note: in order to "buy" a token, you need to fill a sell order. This can be confusing and we plan to make it clearer in a future version of the API!
+Note: in order to "buy" a token, you need to fill a corresponding sell order. This can be confusing and we plan to make it clearer in a future version of the API!
