@@ -82,6 +82,16 @@ html[data-theme='dark'] {
   /* any other colors you wish to overwrite */
 }
 
+.toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+  color: white;
+}
+
+html[data-theme='dark']
+  .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+  color: black;
+  background-color: #f0f0f0;
+}
+
 html[data-theme='light'] {
   --ifm-color-primary: black;
   --ifm-color-secondary: white;

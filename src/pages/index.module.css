@@ -44,26 +44,38 @@
 }
 
 .heading {
-  font-size: 48px;
-  font-weight: 800;
+  font-size: 33px;
+  font-weight: 900;
   line-height: 1.2;
-  color: #fff;
+  color: #f7f8f8;
   text-align: center;
-  padding-top: 70px;
-  margin-bottom: 30px;
+  padding-top: 130px;
+  margin-bottom: 16px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 510px) {
   .heading {
     padding-top: 150px;
-    font-size: 3.5em;
+    font-size: 42px;
+  }
+}
+@media (min-width: 610px) {
+  .heading {
+    padding-top: 150px;
+    font-size: 48px;
+  }
+}
+@media (min-width: 816px) {
+  .heading {
+    padding-top: 150px;
+    font-size: 66px;
   }
 }
 
 .title {
   font-size: 24px;
   line-height: 1.5;
-  color: #95a2b3;
+  color: #f7f8f8;
   font-weight: 700;
   text-align: center;
   margin-top: 70px;
@@ -71,23 +83,26 @@
 }
 
 .useCases {
+  font-size: 10px;
   display: grid;
   max-width: 900px;
+  color: #f7f8f8;
   margin-left: auto;
   margin-right: auto;
   justify-items: center;
   margin-bottom: 100px;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 @media (min-width: 450px) {
   .useCases {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-size: 14px;
   }
 }
 
 @media (min-width: 940px) {
   .useCases {
+    font-size: 16px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
@@ -101,5 +116,6 @@
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 70px;
+  margin-top: 19.2px;
+  margin-bottom: 28.8px;
 }

@@ -4,7 +4,7 @@ import Head from '@docusaurus/Head'
 import Features from '../components/Features'
 import Examples from '../components/Examples'
 import styles from './index.module.css'
-import { HiCheckCircle } from 'react-icons/hi'
+import { HiCheckCircle, HiArrowRight } from 'react-icons/hi'
 
 const Home: FC = () => {
   return (
@@ -93,12 +93,15 @@ const Home: FC = () => {
             style={{
               display: 'grid',
               justifyItems: 'center',
-              marginBottom: '110px',
+              marginBottom: '50px',
             }}
           >
             <a
               style={{
-                display: 'inline-block',
+                display: 'flex',
+                gap: '5px',
+                alignItems: 'center',
+                color: 'white',
                 padding: '10px 25px',
                 textDecoration: 'none',
                 background:
@@ -108,6 +111,7 @@ const Home: FC = () => {
               href="/docs/core-components/api"
             >
               View the API docs
+              <HiArrowRight />
             </a>
           </div>
 
