@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Reservoir',
+        title: 'reservoir',
         logo: {
           alt: 'Reservoir Logo',
           src: 'img/reservoir.svg',
@@ -91,6 +91,12 @@ const config = {
           {
             to: 'https://discord.gg/j5K9fESNwh',
             label: 'Discord',
+            position: 'left',
+            className: 'persistent',
+          },
+          {
+            to: 'https://docs.google.com/forms/d/e/1FAIpQLSdetWgU3dK_NWfIVvN0UpZjj85ifjQVUkRGOcssHwPAgzSzkw/viewform?usp=sf_link',
+            label: 'Jobs',
             position: 'left',
             className: 'persistent',
           },
