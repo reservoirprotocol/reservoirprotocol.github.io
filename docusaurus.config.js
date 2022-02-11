@@ -110,7 +110,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                href: '/docs/protcol/intro',
+                href: '/docs/protocol/intro',
               },
               {
                 label: 'Github',
