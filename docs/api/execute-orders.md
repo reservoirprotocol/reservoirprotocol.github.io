@@ -2,6 +2,8 @@ Reservoir gives you access to a fully functional aggregated order book that stri
 
 Importantly, because its a shared order book, tools can specialize on different parts of the market. For example, a market maker could generate bids and feed them directly into the order book, while a wallet could place a sell button next to every NFT in a user's wallet, giving them access to those bids. As more integrations get built, the network effects of the shared order book grow stronger.
 
+## Steps
+
 When executing orders, there are often multiple steps, like approving an exchange to access your NFTs, or wrapping WETH for a bid. These steps differ for every different type of liquidity that Reservoir supports. To make this simple, you can use the `execute` endpoints, which return the exact steps that you need to follow, including descriptions that you can display to users. 
 
 The flow looks like this:
@@ -14,7 +16,11 @@ There are two types of steps:
 `transaction` > An on-chain transaction that needs to be submitted
 `signature` > A message that needs to be signed
 
-The API returns the exact data that you need to sign/submit, so it can be fed directly into an Ethereum library like Ethers.js. Below is an example, adapted from the sample marketplace:
+The API returns the exact data that you need to sign/submit, so it can be fed directly into an Ethereum library like Ethers.js. 
+
+Any steps that have already been completely (e.g. because the user previously did an approval) are marked as `complete` and can be skipped. Sometimes, the steps are dependent on each other. In these cases, the API will return an empty data field. Once the first step has been completed, request the execute API again in order to get the missing data and continue.
+
+We will soon be releasing a hooks library to handle this all automatically, but in the meantime, we recommend looking at how each action is handled in the [sample marketplace](https://github.com/reservoirprotocol/sample-marketplace/blob/46c25d3b0f78653f8efe7967d91cb79847f44043/components/BuyNow.tsx), and copying from there. Below is an example:
 
 ```js
 // Build parameters
@@ -30,7 +36,6 @@ setParams(url, query)
 // Fetch steps
 const res = await fetch(url.href)
 const json = (await res.json()) as Execute
-
 if (!index) index = 0
 if (json.error) throw new Error(json.error)
 if (!json.steps) throw new ReferenceError('There are no steps.')
@@ -55,4 +60,13 @@ if (json.steps.length - 1 >= index) {
   return json.steps[json.steps.length - 1]?.data
 ```
 
-In order to abstract the complexity of all the different types
+## Actions
+
+The API supports the following actions:
+
+- Buy Now
+- Accept Bid
+- Make Bid
+- List for Sale
+
+Note: in order to "buy" a token, you need to fill a sell order. This can be confusing and we plan to make it clearer in a future version of the API!
