@@ -83,13 +83,14 @@ html[data-theme='dark'] {
 }
 
 .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
-  color: white;
+  color: black;
+  background-color: #f0f0f0 !important;
 }
 
 html[data-theme='dark']
   .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
-  color: black;
-  background-color: #f0f0f0;
+  color: white;
+  background-color: #101010 !important;
 }
 
 html[data-theme='light'] {

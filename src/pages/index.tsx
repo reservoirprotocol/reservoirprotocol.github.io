@@ -80,62 +80,70 @@ const Home: FC = () => {
         }}
       >
         <main className={styles.container}>
-          <div className={styles.heading}>
-            Build NFT apps
-            <br />
-            powered by liquidity
-          </div>
-          <div className={styles.subTitle}>
-            Reservoir gives open and permissionless access to aggregated NFT
-            liquidity, unlocking powerful new use cases
-          </div>
-          <div
-            style={{
-              display: 'grid',
-              justifyItems: 'center',
-              marginBottom: '50px',
-            }}
-          >
-            <a
+          <div className={styles.hero}>
+            <div className={styles.heading}>
+              Build NFT apps
+              <br />
+              powered by liquidity
+            </div>
+            <div className={styles.subTitle}>
+              Reservoir gives open and permissionless access to aggregated NFT
+              liquidity, unlocking powerful new use cases
+            </div>
+            <div
               style={{
-                display: 'flex',
-                gap: '5px',
-                alignItems: 'center',
-                color: 'white',
-                padding: '10px 25px',
-                textDecoration: 'none',
-                background:
-                  'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
-                borderRadius: '5px',
+                display: 'grid',
+                justifyItems: 'center',
+                marginBottom: '50px',
               }}
-              href="/docs/api/overview"
             >
-              View the API docs
-              <HiArrowRight />
-            </a>
+              <a
+                style={{
+                  display: 'flex',
+                  gap: '5px',
+                  alignItems: 'center',
+                  color: 'white',
+                  padding: '10px 25px',
+                  textDecoration: 'none',
+                  background:
+                    'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
+                  borderRadius: '5px',
+                }}
+                href="/docs/api/overview"
+              >
+                View the API docs
+                <HiArrowRight />
+              </a>
+            </div>
+
+            <div className={styles.useCases}>
+              {[
+                'Community Marketplace',
+                'Portfolio Tracker',
+                'Instant Sell',
+                'Market Maker',
+                'Decentralized Order Book',
+                'Pricing Model',
+                'Trait Explorer',
+                'Floor Sweeper',
+              ].map((item) => (
+                <div
+                  style={{
+                    display: 'flex',
+                    gap: '5px',
+                    alignItems: 'center',
+                    paddingLeft: '20px',
+                  }}
+                >
+                  <HiCheckCircle style={{ height: '15px', width: '15px' }} />
+                  <div key={item} style={{ padding: '10px 0px' }}>
+                    {item}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
-          <div className={styles.useCases}>
-            {[
-              'Community Marketplace',
-              'Portfolio Tracker',
-              'Instant Sell',
-              'Market Maker',
-              'Decentralized Order Book',
-              'Pricing Model',
-              'Trait Explorer',
-              'Floor Sweeper',
-            ].map((item) => (
-              <div
-                style={{ display: 'flex', gap: '5px', alignItems: 'center' }}
-              >
-                <HiCheckCircle style={{ height: '15px', width: '15px' }} />
-                <div key={item} style={{ padding: '10px 0px' }}>
-                  {item}
-                </div>
-              </div>
-            ))}
-          </div>
           <Features />
           <div id="builtOnReservoir" className={styles.title}>
             Built on Reservoir
