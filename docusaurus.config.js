@@ -65,13 +65,13 @@ const config = {
         },
         items: [
           {
-            to: '/docs/intro',
+            to: '/docs/protocol/intro',
             label: 'Docs',
             position: 'left',
             className: 'persistent',
           },
           {
-            to: '/docs/core-components/api',
+            to: '/docs/api/overview',
             label: 'API',
             position: 'left',
             className: 'persistent',
@@ -110,7 +110,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                href: '/docs/intro',
+                href: '/docs/protcol/intro',
               },
               {
                 label: 'Github',

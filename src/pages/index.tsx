@@ -108,7 +108,7 @@ const Home: FC = () => {
                   'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
                 borderRadius: '5px',
               }}
-              href="/docs/core-components/api"
+              href="/docs/api/overview"
             >
               View the API docs
               <HiArrowRight />

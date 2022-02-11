@@ -7,7 +7,7 @@ const features = [
     description: 'Permissionless order book with no centralized gatekeeper',
     url: {
       title: 'How it works',
-      href: '/docs/intro',
+      href: '/docs/protocol/intro',
     },
     icon: '/icons/Open.svg',
   },
@@ -17,7 +17,7 @@ const features = [
       'Powerful API that gives granular access to pricing data without limits',
     url: {
       title: 'View docs',
-      href: '/docs/core-components/API',
+      href: '/docs/api/overview',
     },
     icon: '/icons/Scalable.svg',
   },
@@ -27,7 +27,7 @@ const features = [
       'Quickly build a marketplace with aggregated liquidity and custom fees',
     url: {
       title: 'Read this guide',
-      href: '/docs/guides/community-marketplace',
+      href: '/docs/api/guides/community-marketplace',
     },
     icon: '/icons/Composable.svg',
   },
