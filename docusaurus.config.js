@@ -110,7 +110,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                href: '/docs/protcol/intro',
+                href: '/docs/protocol/intro',
               },
               {
                 label: 'Github',
@@ -165,7 +165,7 @@ const config = {
 
         // Should we use the prefers-color-scheme media-query,
         // using user system preferences, instead of the hardcoded defaultMode
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
 
         // Dark/light switch icon options
         switchConfig: {
