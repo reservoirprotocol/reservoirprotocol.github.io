@@ -3,7 +3,7 @@ import { HiArrowRight } from 'react-icons/hi'
 
 const Contact = () => {
   return (
-    <div className="mx-auto grid items-center justify-between gap-4 pb-52 md:flex md:pb-60">
+    <div className="mx-auto grid items-center justify-between gap-4 pb-32 md:flex">
       <div className="mb-9 max-w-2xl text-4xl font-bold md:mb-0">
         Ready to get started? Read our docs or contact us directly
       </div>

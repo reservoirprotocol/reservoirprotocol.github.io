@@ -84,7 +84,10 @@ const Home: FC = () => {
       >
         <main className="container px-2 pb-24 text-white">
           <div className="grid place-content-center lg:h-screen">
-            <div className="mt-20 mb-6 text-center text-3xl font-black lg:mt-28 lg:text-6xl">
+            <div
+              style={{ lineHeight: '77.45px' }}
+              className="mt-20 mb-6 text-center text-3xl font-black lg:mt-28 lg:text-6xl"
+            >
               Build NFT apps
               <br />
               powered by liquidity
@@ -98,7 +101,7 @@ const Home: FC = () => {
                 className="mb-24 flex items-center gap-2 rounded-lg py-4 px-7 font-bold text-white hover:no-underline lg:py-5 lg:px-8 lg:text-lg"
                 style={{
                   background:
-                    'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
+                    'linear-gradient(96.53deg, #BD00FF -4.49%, #7000FF 88.79%)',
                 }}
                 href="/docs/api/overview"
               >
