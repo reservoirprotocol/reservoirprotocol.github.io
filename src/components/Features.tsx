@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className="mb-60">
+    <div className="mb-36 md:mb-60">
       <div className="mb-16">
         <div className="mb-6 text-center text-4xl font-bold">
           Reservoir Protocol

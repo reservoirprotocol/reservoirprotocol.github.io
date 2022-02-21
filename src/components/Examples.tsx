@@ -38,7 +38,7 @@ const examples = [
     name: 'reservoir.market',
     type: 'Community Marketplace',
     logo: '/home/reservoir-market-logo.png',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: '',
     href: 'https://www.reservoir.market/',
     bg: {
       backgroundImage: 'linear-gradient(#4b1863, #1b1b1b)',
@@ -48,16 +48,16 @@ const examples = [
 
 const Examples = () => {
   return (
-    <div className="mb-72">
+    <div className="mb-40 md:mb-72">
       <div className="mb-14">
         <div className="mb-6 text-center text-4xl font-bold">
           Built on Reservoir
         </div>
-        <div className="mx-auto max-w-3xl text-center">
+        {/* <div className="mx-auto max-w-3xl text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum
           arcu molestie integer mauris sollicitudin. Aliquam turpis parturient
           elit phasellus vel id nibh vestibulum.
-        </div>
+        </div> */}
       </div>
       <div className="mx-auto grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         <div className="grid items-center rounded-2xl bg-gradient-to-br from-[#70D3FF] to-[#7000FF] p-8 text-2xl font-bold">

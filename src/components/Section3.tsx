@@ -3,7 +3,7 @@ import { HiArrowRight } from 'react-icons/hi'
 
 const Section3 = () => {
   return (
-    <div className="mb-56 grid items-center gap-28 md:grid-cols-2">
+    <div className="mb-40 grid items-center gap-14 md:mb-56 md:grid-cols-2 md:gap-28">
       <div>
         <div className="mb-6 text-4xl font-bold">
           Collection &amp; trait-wide bids
@@ -13,7 +13,7 @@ const Section3 = () => {
           collection and trait-wide bids.
         </div>
         <a
-          className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-9 py-4 font-bold"
+          className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-9 py-4 font-bold hover:no-underline"
           href="https://levee.bid/"
         >
           Try It Out

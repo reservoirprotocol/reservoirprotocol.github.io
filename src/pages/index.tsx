@@ -8,8 +8,6 @@ import Section1 from '../components/Section1'
 import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Contact from '../components/Contact'
-import Code from '../components/Code'
-import Faq from '../components/Faq'
 
 const Home: FC = () => {
   return (
@@ -97,7 +95,7 @@ const Home: FC = () => {
             </div>
             <div className="mb-14 grid justify-center">
               <a
-                className="mb-24 flex items-center gap-2 rounded-lg py-4 px-7 font-bold text-white no-underline lg:py-5 lg:px-8 lg:text-lg"
+                className="mb-24 flex items-center gap-2 rounded-lg py-4 px-7 font-bold text-white hover:no-underline lg:py-5 lg:px-8 lg:text-lg"
                 style={{
                   background:
                     'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
