@@ -9,6 +9,7 @@ import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Contact from '../components/Contact'
 import Code from '../components/Code'
+import Faq from '../components/Faq'
 
 const Home: FC = () => {
   return (
@@ -136,10 +137,9 @@ const Home: FC = () => {
             </div>
           </div>
 
-          <Code />
           <Features />
           <Examples />
-
+          {/* <Faq /> */}
           <div className="bg-conic-2 relative">
             <div className="relative z-10">
               <Contact />

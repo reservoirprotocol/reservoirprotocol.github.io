@@ -3,24 +3,28 @@ import React from 'react'
 const examples = [
   {
     name: 'Levee',
+    type: 'Collection-wide Bids',
     description:
       'Building NFT liquidity through collection-wide and attribute bidding',
     href: 'https://levee.bid/',
   },
   {
     name: 'Loot Exchange',
+    type: 'Community Marketplace',
     description:
       'A Loot community marketplace with 0% marketplace fees and community royalties. The adventure awaits',
     href: 'https://www.loot.exchange/',
   },
   {
     name: 'Floor Finder',
+    type: 'Find Great Deals',
     description:
       'Easy-to-use tool that helps you track floor prices and depth across multiple collections and attributes',
     href: 'https://www.floorfinder.xyz/',
   },
   {
     name: 'reservoir.market',
+    type: 'Community Marketplace',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     href: '#',
   },
