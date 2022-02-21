@@ -3,8 +3,12 @@ import Layout from '@theme/Layout'
 import Head from '@docusaurus/Head'
 import Features from '../components/Features'
 import Examples from '../components/Examples'
-import styles from './index.module.css'
 import { HiCheckCircle, HiArrowRight } from 'react-icons/hi'
+import Section1 from '../components/Section1'
+import Section2 from '../components/Section2'
+import Section3 from '../components/Section3'
+import Contact from '../components/Contact'
+import Code from '../components/Code'
 
 const Home: FC = () => {
   return (
@@ -79,35 +83,23 @@ const Home: FC = () => {
             'linear-gradient(92.88deg, rgb(21 24 34) 9.16%, rgb(14 11 30) 43.89%, rgb(0 0 0) 64.72%)',
         }}
       >
-        <main className={styles.container}>
-          <div className={styles.hero}>
-            <div className={styles.heading}>
+        <main className="container px-2 pb-24">
+          <div className="grid place-content-center lg:h-screen">
+            <div className="mt-20 mb-6 text-center text-3xl font-black lg:mt-28 lg:text-6xl">
               Build NFT apps
               <br />
               powered by liquidity
             </div>
-            <div className={styles.subTitle}>
+            <div className="mx-auto mb-16 max-w-2xl text-center text-lg text-[#95a2b3] lg:mb-20 lg:text-xl">
               Reservoir gives open and permissionless access to aggregated NFT
               liquidity, unlocking powerful new use cases
             </div>
-            <div
-              style={{
-                display: 'grid',
-                justifyItems: 'center',
-                marginBottom: '50px',
-              }}
-            >
+            <div className="mb-14 grid justify-center">
               <a
+                className="mb-24 flex items-center gap-2 rounded-lg py-4 px-7 font-bold text-white no-underline lg:py-5 lg:px-8 lg:text-lg"
                 style={{
-                  display: 'flex',
-                  gap: '5px',
-                  alignItems: 'center',
-                  color: 'white',
-                  padding: '10px 25px',
-                  textDecoration: 'none',
                   background:
                     'linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)',
-                  borderRadius: '5px',
                 }}
                 href="/docs/api/overview"
               >
@@ -116,7 +108,7 @@ const Home: FC = () => {
               </a>
             </div>
 
-            <div className={styles.useCases}>
+            <div className="mx-auto mb-36 grid grid-cols-2 gap-4 text-[#f7f8f8] lg:grid-cols-4 lg:justify-center">
               {[
                 'Community Marketplace',
                 'Portfolio Tracker',
@@ -127,28 +119,32 @@ const Home: FC = () => {
                 'Trait Explorer',
                 'Floor Sweeper',
               ].map((item) => (
-                <div
-                  style={{
-                    display: 'flex',
-                    gap: '5px',
-                    alignItems: 'center',
-                    paddingLeft: '20px',
-                  }}
-                >
-                  <HiCheckCircle style={{ height: '15px', width: '15px' }} />
-                  <div key={item} style={{ padding: '10px 0px' }}>
+                <div className="flex items-center gap-2 pl-3">
+                  <HiCheckCircle className="h-4 w-4 flex-none" />
+                  <div key={item} className="px-3">
                     {item}
                   </div>
                 </div>
               ))}
             </div>
           </div>
-
-          <Features />
-          <div id="builtOnReservoir" className={styles.title}>
-            Built on Reservoir
+          <div className="bg-conic-1 relative">
+            <div className="relative z-10">
+              <Section1 />
+              <Section2 />
+              <Section3 />
+            </div>
           </div>
+
+          <Code />
+          <Features />
           <Examples />
+
+          <div className="bg-conic-2 relative">
+            <div className="relative z-10">
+              <Contact />
+            </div>
+          </div>
         </main>
       </div>
     </Layout>

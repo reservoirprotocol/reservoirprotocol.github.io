@@ -1,4 +1,3 @@
-import styles from './Features.module.css'
 import React from 'react'
 
 const features = [
@@ -45,17 +44,26 @@ const features = [
 
 const Features = () => {
   return (
-    <div className={styles.grid}>
-      {features.map(({ name, description, url, icon }) => (
-        <div key={name} className={styles.card}>
-          <img src={icon} className={styles.icon} />
-          <div className={styles.title}>{name}</div>
-          <div className={styles.description}>{description}</div>
-          <a href={url.href} className={styles.anchor}>
-            {url.title}
-          </a>
+    <div className="mb-60">
+      <div className="mb-16">
+        <div className="mb-6 text-center text-4xl font-bold">
+          Reservoir Protocol
         </div>
-      ))}
+        <div className="mx-auto max-w-3xl text-center text-lg">
+          The Reservoir protocol is a decentralized NFT order book designed to
+          grow NFT Liquidity. It has many pieces, which all come together to
+          form a comprehensive liquidity toolkit.
+        </div>
+      </div>
+      <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        {features.map(({ name, description, url, icon }) => (
+          <div key={name} className="rounded-lg bg-[#1A1A1A] p-8">
+            <img src={icon} className="mb-5 h-9 w-9 invert" />
+            <div className="mb-4 text-xl font-bold">{name}</div>
+            <div className="">{description}</div>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }

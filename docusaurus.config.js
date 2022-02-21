@@ -16,7 +16,21 @@ const config = {
   organizationName: 'UnevenLabs', // Usually your GitHub org/user name.
   projectName: 'reservoir-docs', // Usually your repo name.
 
-  plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
+  plugins: [
+    // @ts-ignore
+    async function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require('tailwindcss'))
+          postcssOptions.plugins.push(require('autoprefixer'))
+          return postcssOptions
+        },
+      }
+    },
+    require.resolve('@cmfcmf/docusaurus-search-local'),
+  ],
 
   presets: [
     [
