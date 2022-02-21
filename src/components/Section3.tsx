@@ -23,7 +23,7 @@ const Section3 = () => {
       <div className="relative">
         <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
         <img
-          className="relative top-7 left-7"
+          className="relative"
           src="/home/levee.png"
           width="672"
           height="522"

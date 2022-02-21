@@ -2,11 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="mx-auto flex items-center justify-between gap-4 pb-60">
+    <div className="mx-auto grid items-center justify-between gap-4 pb-60 md:flex">
       <div className="max-w-2xl text-4xl font-bold">
         Ready to get started? Read our docs or contact us directly
       </div>
-
       <div className="flex items-center gap-4">
         <a
           className="inline-flex items-center gap-2 rounded-lg px-9 py-4 font-bold"
