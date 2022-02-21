@@ -8,7 +8,7 @@ const Section3 = () => {
         <div className="mb-6 text-4xl font-bold">
           Collection &amp; trait-wide bids
         </div>
-        <div className="mb-12 text-lg font-light">
+        <div className="mb-12 text-lg">
           Finding a great deals has never been easier with Reservoir's
           collection and trait-wide bids.
         </div>

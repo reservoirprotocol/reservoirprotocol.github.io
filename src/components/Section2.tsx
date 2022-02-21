@@ -27,7 +27,7 @@ const Section2 = () => {
         <div className="mb-6 text-4xl font-bold">
           Access open market &amp; pricing data
         </div>
-        <div className="mb-12 text-lg font-light">
+        <div className="mb-12 text-lg">
           Gain unappreciated access to market and pricing data, opening up a new
           world of possibilities.
         </div>

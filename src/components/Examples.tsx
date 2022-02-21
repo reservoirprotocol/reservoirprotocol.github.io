@@ -66,6 +66,7 @@ const Examples = () => {
         {examples.map(({ name, description, href, type, logo, bg }) => (
           <a
             style={bg}
+            target="_blank"
             href={href}
             className="rounded-2xl p-8 hover:text-white hover:no-underline"
           >

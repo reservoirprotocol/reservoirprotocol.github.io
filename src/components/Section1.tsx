@@ -8,7 +8,7 @@ const Section1 = () => {
         <div className="mb-6 text-4xl font-bold">
           Easiest way to build community marketplaces
         </div>
-        <div className="mb-12 text-lg font-light">
+        <div className="mb-12 text-lg">
           Reservoir&apos;s API and public repositories enable communities to
           easily build their own marketplaces with access to a shared pool of
           liquidity.
