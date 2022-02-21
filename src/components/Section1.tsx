@@ -8,7 +8,7 @@ const Section1 = () => {
         <div className="mb-6 text-4xl font-bold">
           Easiest way to build community marketplaces
         </div>
-        <div className="mb-12 text-lg">
+        <div className="mb-12 text-lg font-light">
           Reservoir&apos;s API and public repositories enable communities to
           easily build their own marketplaces with access to a shared pool of
           liquidity.
@@ -21,15 +21,20 @@ const Section1 = () => {
           <HiArrowRight className="flex-none" />
         </a>
       </div>
-      <div className="relative overflow-hidden rounded-2xl">
-        <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
-        <img
-          className="relative top-7 left-7 rounded-2xl"
-          src="/home/loot-exchange.png"
-          width="640"
-          height="446"
-          alt="Screenshot of loot.exchange"
-        />
+      <div>
+        <div className="relative mb-1 overflow-hidden rounded-2xl">
+          <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
+          <img
+            className="relative top-7 left-7 rounded-2xl"
+            src="/home/loot-exchange.png"
+            width="640"
+            height="446"
+            alt="Screenshot of loot.exchange"
+          />
+        </div>
+        <a target="_blank" href="https://www.loot.exchange/">
+          @Loot Exchange
+        </a>
       </div>
     </div>
   )

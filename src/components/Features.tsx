@@ -7,13 +7,14 @@ const Features = () => {
         <div className="mb-6 text-center text-4xl font-bold">
           Reservoir Protocol
         </div>
-        <div className="mx-auto max-w-3xl text-center text-lg">
+        <div className="mx-auto max-w-3xl text-center text-lg font-light">
           The Reservoir protocol is a decentralized NFT order book designed to
           grow NFT Liquidity. It has many pieces, which all come together to
           form a comprehensive liquidity toolkit.
         </div>
       </div>
       <img
+        className="mx-auto"
         src="/home/protocol-overview.png"
         alt="Reservoir protocol overview"
         width="1203"

@@ -35,10 +35,10 @@ const examples = [
     },
   },
   {
-    name: 'reservoir.market',
-    type: 'Community Marketplace',
+    name: 'Reservoir Market',
+    type: 'Open Source Marketplace',
     logo: '/home/reservoir-market-logo.png',
-    description: '',
+    description: 'An open source NFT marketplace powered by Reservoir',
     href: 'https://www.reservoir.market/',
     bg: {
       backgroundImage: 'linear-gradient(#4b1863, #1b1b1b)',
@@ -59,7 +59,7 @@ const Examples = () => {
           elit phasellus vel id nibh vestibulum.
         </div> */}
       </div>
-      <div className="mx-auto grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <div className="grid items-center rounded-2xl bg-gradient-to-br from-[#70D3FF] to-[#7000FF] p-8 text-2xl font-bold">
           Ideal for all kinds of products. Such as...
         </div>
@@ -67,12 +67,14 @@ const Examples = () => {
           <a
             style={bg}
             href={href}
-            className="rounded-2xl p-8 hover:no-underline"
+            className="rounded-2xl p-8 hover:text-white hover:no-underline"
           >
-            {logo && <img className="mx-auto mb-12 block" src={logo} />}
-            <div className="mb-1 font-semibold">{type}</div>
+            {logo && (
+              <img className="mx-auto mb-12 block max-w-[250px]" src={logo} />
+            )}
+            <div className="mb-1 font-semibold text-[#D7B8FF]">{type}</div>
             <div className="mb-4 text-xl font-bold">{name}</div>
-            <div className="text-lg">{description}</div>
+            <div className="text-lg text-[#9599A7]">{description}</div>
           </a>
         ))}
         <div className="grid items-center rounded-2xl  bg-[#060606] p-8 text-2xl font-bold">

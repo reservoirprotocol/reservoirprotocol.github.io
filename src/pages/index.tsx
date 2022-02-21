@@ -82,7 +82,7 @@ const Home: FC = () => {
             'linear-gradient(92.88deg, rgb(21 24 34) 9.16%, rgb(14 11 30) 43.89%, rgb(0 0 0) 64.72%)',
         }}
       >
-        <main className="container px-2 pb-24">
+        <main className="container px-2 pb-24 text-white">
           <div className="grid place-content-center lg:h-screen">
             <div className="mt-20 mb-6 text-center text-3xl font-black lg:mt-28 lg:text-6xl">
               Build NFT apps
