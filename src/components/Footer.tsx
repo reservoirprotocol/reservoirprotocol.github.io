@@ -9,7 +9,11 @@ const Footer = () => {
             <div className="mb-8 text-xl font-bold text-white">{col.title}</div>
             <div className="grid gap-6">
               {col.items.map(({ href, label }) => (
-                <a key={label} href={href} className="text-[#9599A7]">
+                <a
+                  key={label}
+                  href={href}
+                  className="text-[#9599A7] hover:text-white"
+                >
                   {label}
                 </a>
               ))}

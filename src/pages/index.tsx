@@ -95,7 +95,7 @@ const Home: FC = () => {
               </div>
               <div className="mb-14 grid justify-center">
                 <a
-                  className="mb-24 flex items-center gap-2 rounded-lg py-5 px-11 font-bold text-white hover:no-underline lg:text-lg"
+                  className="mb-24 flex items-center gap-2 rounded-lg py-5 px-11 font-bold text-white hover:text-white hover:no-underline lg:text-lg"
                   style={{
                     background:
                       'linear-gradient(96.53deg, #BD00FF -4.49%, #7000FF 88.79%)',

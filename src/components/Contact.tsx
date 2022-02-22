@@ -11,14 +11,14 @@ const Contact = () => {
       </div>
       <div className="grid items-center gap-4 md:flex">
         <a
-          className="inline-flex w-min items-center gap-2 whitespace-nowrap rounded-lg bg-gradient-to-r from-[#BD00FF] to-[#7000FF] px-9 py-4 font-bold hover:no-underline"
+          className="inline-flex w-min items-center gap-2 whitespace-nowrap rounded-lg bg-gradient-to-r from-[#BD00FF] to-[#7000FF] px-9 py-4 font-bold hover:text-white hover:no-underline"
           href="/docs/protocol/intro"
         >
           View Docs
           <HiArrowRight className="flex-none" />
         </a>
         <a
-          className="inline-flex w-min items-center gap-2 whitespace-nowrap rounded-lg bg-[#060606] px-9 py-4 font-bold hover:no-underline"
+          className="inline-flex w-min items-center gap-2 whitespace-nowrap rounded-lg bg-[#060606] px-9 py-4 font-bold hover:text-white hover:no-underline"
           href="https://discord.gg/j5K9fESNwh"
         >
           Contact Us

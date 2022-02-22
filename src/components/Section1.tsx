@@ -14,7 +14,7 @@ const Section1 = () => {
           liquidity.
         </div>
         <a
-          className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-8 py-4 font-bold hover:no-underline"
+          className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-8 py-4 font-bold hover:text-white hover:no-underline "
           href="https://github.com/reservoirprotocol"
         >
           Visit GitHub

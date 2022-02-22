@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
         <div>
           {links.map(({ href, label }) => (
-            <a className="mx-4" key={label} href={href}>
+            <a className="mx-4 hover:text-white " key={label} href={href}>
               {label}
             </a>
           ))}

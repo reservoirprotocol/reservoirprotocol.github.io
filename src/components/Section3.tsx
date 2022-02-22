@@ -13,7 +13,7 @@ const Section3 = () => {
           collection and trait-wide bids.
         </div>
         <a
-          className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-11 py-4 font-bold hover:no-underline"
+          className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-11 py-4 font-bold hover:text-white hover:no-underline "
           href="/docs/api/overview"
         >
           Try It Out
