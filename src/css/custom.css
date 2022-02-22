@@ -14,7 +14,7 @@
 .bg-conic-1::before {
   content: '';
   position: absolute;
-  top: 250px;
+  top: 50px;
   right: 0;
   bottom: 0;
   left: 0;
