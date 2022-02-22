@@ -9,13 +9,14 @@ import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Home: FC = () => {
   return (
     <>
       <Navbar />
 
-      <Layout>
+      <Layout noFooter={true}>
         <Head>
           <title>Home | Reservoir</title>
           <meta
@@ -140,6 +141,7 @@ const Home: FC = () => {
             <div className="bg-conic-2 relative">
               <div className="relative z-10">
                 <Contact />
+                <Footer />
               </div>
             </div>
           </main>

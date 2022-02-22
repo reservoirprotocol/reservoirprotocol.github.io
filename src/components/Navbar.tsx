@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 z-[9999] hidden  w-full bg-black md:block">
       <nav className="relative mx-auto flex h-[70px] max-w-screen-xl items-center justify-center px-6 ">
-        <div className="absolute left-3 inline-flex items-center gap-2">
+        <div className="absolute left-5 inline-flex items-center gap-2">
           <img
             src="img/reservoir.svg"
             alt="Reservoir Logo"
