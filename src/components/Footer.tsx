@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="w-full pb-20 md:block">
-      <nav className="mx-auto grid max-w-screen-xl gap-10 px-6 sm:grid-cols-2 lg:grid-cols-3">
+      <nav className="grid max-w-screen-lg gap-10 px-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-0">
         {links.map((col) => (
           <div key={col.title}>
             <div className="mb-8 text-xl font-bold text-white">{col.title}</div>

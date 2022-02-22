@@ -3,9 +3,11 @@ import { HiArrowRight } from 'react-icons/hi'
 
 const Contact = () => {
   return (
-    <div className="mx-auto grid max-w-screen-xl items-center justify-between gap-4 pb-32 md:flex">
+    <div className="mx-auto grid max-w-screen-xl items-center justify-between gap-4 pb-48 md:flex lg:pb-60">
       <div className="mb-9 max-w-2xl text-4xl font-bold md:mb-0">
-        Ready to get started? Read our docs or contact us directly
+        Ready to get started?
+        <br />
+        Read our docs or contact us directly
       </div>
       <div className="grid items-center gap-4 md:flex">
         <a
