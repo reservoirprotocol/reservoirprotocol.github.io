@@ -3,7 +3,7 @@ import { HiArrowRight } from 'react-icons/hi'
 
 const Section2 = () => {
   return (
-    <div className="mb-40 flex flex-col-reverse place-items-center gap-14 md:mb-56 md:grid md:grid-cols-2 md:gap-28">
+    <div className="mx-auto mb-40 flex max-w-screen-xl flex-col-reverse place-items-center gap-14 px-4 md:mb-56 md:grid md:grid-cols-2 md:gap-28 lg:px-2">
       <div>
         <div className="relative mb-1 overflow-hidden rounded-2xl">
           <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
@@ -17,7 +17,7 @@ const Section2 = () => {
         </div>
         <a
           target="_blank"
-          className="flex justify-end"
+          className="text-sm opacity-70"
           href="https://www.floorfinder.xyz/"
         >
           @Floor Finder
@@ -27,7 +27,7 @@ const Section2 = () => {
         <div className="mb-6 text-4xl font-bold">
           Access open market &amp; pricing data
         </div>
-        <div className="mb-12 text-lg">
+        <div className="mb-12 text-lg text-[#EDEDED]">
           Gain unappreciated access to market and pricing data, opening up a new
           world of possibilities.
         </div>
