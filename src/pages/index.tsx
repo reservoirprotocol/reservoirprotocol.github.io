@@ -86,7 +86,7 @@ const Home: FC = () => {
           style={{
             backgroundImage: 'url(/home/bg.webp)',
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center top 20%',
+            backgroundPosition: 'center top 15%',
           }}
         >
           <main className="container px-2 pb-24 text-white">
