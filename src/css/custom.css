@@ -11,42 +11,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-conic-1::before {
-  content: '';
-  position: absolute;
-  top: 50px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: conic-gradient(
-    from 180deg at 50% 50%,
-    #7000ff 0deg,
-    #bd00ff 202.5deg,
-    #70d3ff 360deg
-  );
-  filter: blur(400px);
-}
-
-.bg-conic-2::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: conic-gradient(
-    from 180deg at 50% 50%,
-    #7000ff 0deg,
-    #bd00ff 202.5deg,
-    #70d3ff 360deg
-  );
-  filter: blur(400px);
-}
-
 @font-face {
   font-family: 'Obvia';
   src: url('/fonts/obvia_bold-webfont.woff2') format('woff2'),
     url('/fonts/obvia_regular-webfont.woff2') format('woff2');
+  font-display: swap;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Montserrat:wght@400;500;600;700&display=swap');

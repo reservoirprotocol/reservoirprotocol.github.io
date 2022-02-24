@@ -2,20 +2,34 @@ import React from 'react'
 
 const examples = [
   {
-    name: 'Levee',
-    type: 'Collection-wide Bids',
-    logo: '/home/levee-logo.png',
+    name: 'Forgotten Market',
+    type: 'Community Marketplace',
+    logo: (
+      <img
+        className="mx-auto mb-12 block max-w-[250px]"
+        src="/home/forgotten-runes-logo.png"
+        width="360"
+        height="118"
+      />
+    ),
     description:
-      'Building NFT liquidity through collection-wide and attribute bidding',
-    href: 'https://levee.bid/',
+      'Forgotten.market is a cult-created, open source Forgotten Runes marketplace.',
+    href: 'https://forgotten.market/',
     bg: {
-      backgroundImage: 'linear-gradient(#202060, #1b1b1b)',
+      backgroundImage: 'linear-gradient(#545700, #1b1b1b)',
     },
   },
   {
     name: 'Loot Exchange',
     type: 'Community Marketplace',
-    logo: '/home/loot-exchange-logo.png',
+    logo: (
+      <img
+        className="mx-auto mb-12 block max-w-[250px]"
+        src="/home/loot-exchange-logo.png"
+        width="130"
+        height="42"
+      />
+    ),
     description:
       'A Loot community marketplace with 0% marketplace fees and community royalties. The adventure awaits',
     href: 'https://www.loot.exchange/',
@@ -24,9 +38,35 @@ const examples = [
     },
   },
   {
+    name: 'Levee',
+    type: 'Collection-wide Bids',
+    logo: (
+      <img
+        className="mx-auto mb-12 block max-w-[250px]"
+        src="/home/levee-logo.png"
+        width="130"
+        height="42"
+      />
+    ),
+    description:
+      'Building NFT liquidity through collection-wide and attribute bidding',
+    href: 'https://levee.bid/',
+    bg: {
+      backgroundImage: 'linear-gradient(#202060, #1b1b1b)',
+    },
+  },
+
+  {
     name: 'Floor Finder',
     type: 'Find Great Deals',
-    logo: '/home/floor-finder-logo.png',
+    logo: (
+      <img
+        className="mx-auto mb-12 block max-w-[250px]"
+        src="/home/floor-finder-logo.png"
+        width="187"
+        height="23"
+      />
+    ),
     description:
       'Easy-to-use tool that helps you track floor prices and depth across multiple collections and attributes',
     href: 'https://www.floorfinder.xyz/',
@@ -37,7 +77,14 @@ const examples = [
   {
     name: 'Reservoir Market',
     type: 'Open Source Marketplace',
-    logo: '/home/reservoir-market-logo.png',
+    logo: (
+      <img
+        className="mx-auto mb-12 block max-w-[250px]"
+        src="/home/reservoir-market-logo.png"
+        width="827"
+        height="106"
+      />
+    ),
     description: 'An open source NFT marketplace powered by Reservoir',
     href: 'https://www.reservoir.market/',
     bg: {
@@ -70,17 +117,12 @@ const Examples = () => {
             href={href}
             className="rounded-2xl p-8 hover:text-white hover:no-underline"
           >
-            {logo && (
-              <img className="mx-auto mb-12 block max-w-[250px]" src={logo} />
-            )}
+            {logo}
             <div className="mb-1 font-semibold text-[#D7B8FF]">{type}</div>
             <div className="mb-4 text-xl font-bold">{name}</div>
             <div className="text-lg text-[#9599A7]">{description}</div>
           </a>
         ))}
-        <div className="grid items-center rounded-2xl  bg-[#060606] p-8 text-2xl font-bold">
-          and many more...
-        </div>
       </div>
     </div>
   )

@@ -15,10 +15,9 @@ const Home: FC = () => {
   return (
     <>
       <Navbar />
-
       <Layout noFooter={true}>
         <Head>
-          <title>Home | Reservoir</title>
+          <title>Reservoir | Build NFT apps powered by liquidity</title>
           <meta
             name="description"
             content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
@@ -81,7 +80,14 @@ const Home: FC = () => {
           <meta property="og:image:height" content="640" />
           <meta property="og:image:alt" content="Reservoir Protocol banner" />
         </Head>
-        <div className="bg-black">
+        <div
+          className="mx-auto bg-black"
+          style={{
+            backgroundImage: 'url(/home/bg.avif)',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center top 20%',
+          }}
+        >
           <main className="container px-2 pb-24 text-white">
             <div className="grid place-content-center lg:h-screen">
               <div className="mt-20 mb-6 text-center text-3xl font-black md:text-[50px] md:leading-[67px] lg:mt-28 lg:text-[60px] lg:leading-[77px]">
@@ -127,23 +133,15 @@ const Home: FC = () => {
                 ))}
               </div>
             </div>
-            <div className="bg-conic-1 relative">
-              <div className="relative z-10">
-                <Section1 />
-                <Section2 />
-                <Section3 />
-              </div>
-            </div>
+            <Section1 />
+            <Section2 />
+            <Section3 />
 
             <Features />
             <Examples />
             {/* <Faq /> */}
-            <div className="bg-conic-2 relative">
-              <div className="relative z-10">
-                <Contact />
-                <Footer />
-              </div>
-            </div>
+            <Contact />
+            <Footer />
           </main>
         </div>
       </Layout>
