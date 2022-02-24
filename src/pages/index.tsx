@@ -84,7 +84,7 @@ const Home: FC = () => {
         <div
           className="mx-auto bg-black"
           style={{
-            backgroundImage: 'url(/home/bg.avif)',
+            backgroundImage: 'url(/home/bg.webp)',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center top 20%',
           }}
@@ -129,7 +129,7 @@ const Home: FC = () => {
                 >
                   View the API docs
                   <HiArrowRight />
-                </a>{' '}
+                </a>
               </motion.div>
 
               <motion.div
