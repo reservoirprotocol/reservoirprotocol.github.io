@@ -8,9 +8,9 @@ const examples = [
     logo: (
       <img
         className="mx-auto mb-12 block max-w-[250px]"
-        src="/home/forgotten-runes-logo.png"
-        width="360"
-        height="118"
+        src="/home/Forgotten_Market_Logo.webp"
+        width="192"
+        height="42"
       />
     ),
     description:
@@ -26,8 +26,8 @@ const examples = [
     logo: (
       <img
         className="mx-auto mb-12 block max-w-[250px]"
-        src="/home/loot-exchange-logo.png"
-        width="130"
+        src="/home/Loot_Exchange_Logo.webp"
+        width="112"
         height="42"
       />
     ),
@@ -44,7 +44,7 @@ const examples = [
     logo: (
       <img
         className="mx-auto mb-12 block max-w-[250px]"
-        src="/home/levee-logo.png"
+        src="/home/Levee_Logo.webp"
         width="130"
         height="42"
       />
@@ -63,9 +63,9 @@ const examples = [
     logo: (
       <img
         className="mx-auto mb-12 block max-w-[250px]"
-        src="/home/floor-finder-logo.png"
-        width="187"
-        height="23"
+        src="/home/Floor_Finder_Logo.webp"
+        width="289"
+        height="42"
       />
     ),
     description:
@@ -81,9 +81,9 @@ const examples = [
     logo: (
       <img
         className="mx-auto mb-12 block max-w-[250px]"
-        src="/home/reservoir-market-logo.png"
-        width="827"
-        height="106"
+        src="/home/Res_Market_Logo.webp"
+        width="328"
+        height="42"
       />
     ),
     description: 'An open source NFT marketplace powered by Reservoir',

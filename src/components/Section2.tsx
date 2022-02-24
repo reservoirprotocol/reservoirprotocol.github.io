@@ -11,16 +11,13 @@ const Section2 = () => {
       transition={{ delay: 0.2, duration: 0.5 }}
     >
       <div>
-        <div className="relative mb-1 overflow-hidden rounded-2xl">
-          <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
-          <img
-            className="relative top-7 right-7 rounded-2xl"
-            src="/home/floor-finder.png"
-            width="640"
-            height="450"
-            alt="Screenshot of loot.exchange"
-          />
-        </div>
+        <img
+          className="relative top-7 right-7 rounded-2xl"
+          src="/home/Floor_Finder.webp"
+          width="1416"
+          height="1110"
+          alt="Screenshot of loot.exchange"
+        />
         <a
           target="_blank"
           className="text-sm opacity-70"

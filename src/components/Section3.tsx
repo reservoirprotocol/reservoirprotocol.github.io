@@ -27,16 +27,13 @@ const Section3 = () => {
         </a>
       </div>
       <div>
-        <div className="relative mb-1 overflow-hidden rounded-2xl">
-          <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
-          <img
-            className="relative"
-            src="/home/levee.png"
-            width="672"
-            height="522"
-            alt="Screenshot of loot.exchange"
-          />
-        </div>
+        <img
+          className="relative"
+          src="/home/Levee.webp"
+          width="1416"
+          height="1110"
+          alt="Screenshot of loot.exchange"
+        />
         <a
           target="_blank"
           className="flex justify-end text-sm opacity-70"
