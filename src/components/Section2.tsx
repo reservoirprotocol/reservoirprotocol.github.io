@@ -12,7 +12,7 @@ const Section2 = () => {
     >
       <div>
         <img
-          className="relative top-7 right-7 rounded-2xl"
+          className="block rounded-2xl"
           src="/home/Floor_Finder.webp"
           width="1416"
           height="1110"

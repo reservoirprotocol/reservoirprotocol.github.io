@@ -28,7 +28,7 @@ const Section3 = () => {
       </div>
       <div>
         <img
-          className="relative"
+          className="block rounded-2xl"
           src="/home/Levee.webp"
           width="1416"
           height="1110"
