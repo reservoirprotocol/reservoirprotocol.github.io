@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 
 const examples = [
   {
@@ -70,9 +70,9 @@ const Examples = () => {
             target="_blank"
             href={href}
             className="rounded-2xl p-8 hover:text-white hover:no-underline"
-            whileHover={{ scale: 1.02}}
-            onHoverStart={e => {}}
-            onHoverEnd={e => {}}
+            whileHover={{ scale: 1.02 }}
+            onHoverStart={(e) => {}}
+            onHoverEnd={(e) => {}}
           >
             {logo && (
               <img className="mx-auto mb-12 block max-w-[250px]" src={logo} />

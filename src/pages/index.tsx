@@ -10,7 +10,7 @@ import Section3 from '../components/Section3'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 
 const Home: FC = () => {
   return (
@@ -19,7 +19,9 @@ const Home: FC = () => {
 
       <Layout noFooter={true}>
         <Head>
-          <title>Reservoir Protocol | Build NFT apps powered by liquidity</title>
+          <title>
+            Reservoir Protocol | Build NFT apps powered by liquidity
+          </title>
           <meta
             name="description"
             content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
@@ -85,30 +87,33 @@ const Home: FC = () => {
         <div className="bg-black">
           <main className="container px-2 pb-24 text-white">
             <div className="grid place-content-center lg:h-screen">
-              <motion.div className="mt-20 mb-6 text-center text-3xl font-black md:text-[50px] md:leading-[67px] lg:mt-28 lg:text-[60px] lg:leading-[77px]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{duration: 2}}
-              viewport={{ once: true }}
+              <motion.div
+                className="mt-20 mb-6 text-center text-3xl font-black md:text-[50px] md:leading-[67px] lg:mt-28 lg:text-[60px] lg:leading-[77px]"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 2 }}
+                viewport={{ once: true }}
               >
                 Build NFT apps
                 <br />
                 powered by liquidity
               </motion.div>
-              <motion.div className="mx-auto mb-16 max-w-2xl text-center text-lg text-[#95a2b3] lg:mb-20 lg:text-xl"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{duration: 3}}
-              viewport={{ once: true }}
+              <motion.div
+                className="mx-auto mb-16 max-w-2xl text-center text-lg text-[#95a2b3] lg:mb-20 lg:text-xl"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 3 }}
+                viewport={{ once: true }}
               >
                 Reservoir gives open and permissionless access to aggregated NFT
                 liquidity, unlocking powerful new use cases
               </motion.div>
-              <motion.div className="mb-14 grid justify-center"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{duration: 4}}
-              viewport={{ once: true }}
+              <motion.div
+                className="mb-14 grid justify-center"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 4 }}
+                viewport={{ once: true }}
               >
                 <a
                   className="mb-24 flex items-center gap-2 rounded-lg py-5 px-11 font-bold text-white hover:text-white hover:no-underline lg:text-lg"
@@ -123,11 +128,12 @@ const Home: FC = () => {
                 </a>
               </motion.div>
 
-              <motion.div className="mx-auto mb-36 grid grid-cols-2 gap-4 text-[#f7f8f8] lg:grid-cols-4 lg:justify-center"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{duration: 5}}
-              viewport={{ once: true }}
+              <motion.div
+                className="mx-auto mb-36 grid grid-cols-2 gap-4 text-[#f7f8f8] lg:grid-cols-4 lg:justify-center"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 5 }}
+                viewport={{ once: true }}
               >
                 {[
                   'Community Marketplace',

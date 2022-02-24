@@ -11,19 +11,19 @@ Importantly, because its a shared order book, tools can specialize on different 
 
 ## Steps
 
-When executing orders, there are often multiple steps, like approving an exchange to access your NFTs, or wrapping WETH for a bid. These steps differ for every different type of liquidity that Reservoir supports. To make this simple, you can use the `execute` endpoints, which return the exact steps that you need to follow, including descriptions that you can display to users. 
+When executing orders, there are often multiple steps, like approving an exchange to access your NFTs, or wrapping WETH for a bid. These steps differ for every different type of liquidity that Reservoir supports. To make this simple, you can use the `execute` endpoints, which return the exact steps that you need to follow, including descriptions that you can display to users.
 
 The flow looks like this:
 
-1) Call the `execute` API with the action you want to take (create or fill)  
-2) Iterate through the steps, taking the necessary action
+1. Call the `execute` API with the action you want to take (create or fill)
+2. Iterate through the steps, taking the necessary action
 
 There are two types of steps:
 
 `transaction` > An on-chain transaction that needs to be submitted  
 `signature` > A message that needs to be signed
 
-The API returns the exact data that you need to sign/submit, so it can be fed directly into an Ethereum library like Ethers.js. 
+The API returns the exact data that you need to sign/submit, so it can be fed directly into an Ethereum library like Ethers.js.
 
 Any steps that have already been completely (e.g. because the user previously did an approval) are marked as `complete` and can be skipped. Sometimes, the steps are dependent on each other. In these cases, the API will return an empty data field. Once the first step has been completed, request the execute API again in order to get the missing data and continue.
 
