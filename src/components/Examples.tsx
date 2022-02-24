@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 
 const examples = [
   {
@@ -65,14 +64,11 @@ const Examples = () => {
           Ideal for all kinds of products. Such as...
         </div>
         {examples.map(({ name, description, href, type, logo, bg }) => (
-          <motion.a
+          <a
             style={bg}
             target="_blank"
             href={href}
             className="rounded-2xl p-8 hover:text-white hover:no-underline"
-            whileHover={{ scale: 1.02 }}
-            onHoverStart={(e) => {}}
-            onHoverEnd={(e) => {}}
           >
             {logo && (
               <img className="mx-auto mb-12 block max-w-[250px]" src={logo} />
@@ -80,7 +76,7 @@ const Examples = () => {
             <div className="mb-1 font-semibold text-[#D7B8FF]">{type}</div>
             <div className="mb-4 text-xl font-bold">{name}</div>
             <div className="text-lg text-[#9599A7]">{description}</div>
-          </motion.a>
+          </a>
         ))}
         <div className="grid items-center rounded-2xl  bg-[#060606] p-8 text-2xl font-bold">
           and many more...

@@ -11,7 +11,7 @@ The Reservoir Order Book is an aggregated and filtered view of all available liq
 - Token > The most common order today, on a single token
 - Contract > On any token in a collection
 - Range > On a range of token ids, for contracts like Art Blocks
-- List >
+- List > 
 
 For more information on how multi-token orders work, check out the Token Sets page.
 
@@ -22,3 +22,5 @@ For more information on how multi-token orders work, check out the Token Sets pa
 - WyvernV2 (Open Sea)
 - 0x [COMING SOON]
 - Rarible [COMING SOON]
+
+
