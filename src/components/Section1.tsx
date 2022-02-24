@@ -29,7 +29,7 @@ const Section1 = () => {
       </div>
       <div>
         <img
-          className="block rounded-2xl"
+          className="mb-1.5 block rounded-2xl"
           src="/home/Loot_Exchange.webp"
           width="1416"
           height="1110"
