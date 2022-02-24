@@ -1,9 +1,15 @@
 import React from 'react'
 import { HiArrowRight } from 'react-icons/hi'
+import { motion } from 'framer-motion'
 
 const Section2 = () => {
   return (
-    <div className="mx-auto mb-40 flex max-w-screen-xl flex-col-reverse place-items-center gap-14 px-4 md:mb-56 md:grid md:grid-cols-2 md:gap-28 lg:px-2">
+    <motion.div
+      className="mx-auto mb-40 flex max-w-screen-xl flex-col-reverse place-items-center gap-14 px-4 md:mb-56 md:grid md:grid-cols-2 md:gap-28 lg:px-2"
+      initial={{ x: '-50' }}
+      whileInView={{ x: 0 }}
+      transition={{ delay: 0.2, duration: 0.5 }}
+    >
       <div>
         <div className="relative mb-1 overflow-hidden rounded-2xl">
           <div className="absolute inset-0 rounded-2xl bg-white/20"></div>
@@ -39,7 +45,7 @@ const Section2 = () => {
           <HiArrowRight className="flex-none" />
         </a>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

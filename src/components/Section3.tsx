@@ -1,9 +1,15 @@
 import React from 'react'
 import { HiArrowRight } from 'react-icons/hi'
+import { motion } from 'framer-motion'
 
 const Section3 = () => {
   return (
-    <div className="mx-auto mb-40 grid max-w-screen-xl items-center gap-14 px-4 md:mb-56 md:grid-cols-2 md:gap-28 lg:px-2">
+    <motion.div
+      className="mx-auto mb-40 grid max-w-screen-xl items-center gap-14 px-4 md:mb-56 md:grid-cols-2 md:gap-28 lg:px-2"
+      initial={{ x: '50' }}
+      whileInView={{ x: 0 }}
+      transition={{ delay: 0.2, duration: 0.5 }}
+    >
       <div>
         <div className="mb-6 text-4xl font-bold">
           Collection &amp; trait-wide bids
@@ -39,7 +45,7 @@ const Section3 = () => {
           @Levee
         </a>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
