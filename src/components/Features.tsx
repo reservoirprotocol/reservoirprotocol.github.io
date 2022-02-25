@@ -15,10 +15,10 @@ const Features = () => {
       </div>
       <img
         className="mx-auto"
-        src="/home/protocol-overview.png"
+        src="/home/reservoir-diagram.webp"
         alt="Reservoir protocol overview"
-        width="1203"
-        height="448"
+        width="2406"
+        height="896"
       />
     </div>
   )

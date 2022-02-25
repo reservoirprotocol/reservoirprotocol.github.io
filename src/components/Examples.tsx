@@ -7,10 +7,10 @@ const examples = [
     type: 'Community Marketplace',
     logo: (
       <img
-        className="mx-auto mb-12 block max-w-[250px]"
-        src="/home/Forgotten_Market_Logo.webp"
+        className="mx-auto mb-7 block max-w-[250px]"
+        src="/home/Forgotten_Market_Logo_2.webp"
         width="192"
-        height="42"
+        height="63"
       />
     ),
     description:
@@ -101,11 +101,6 @@ const Examples = () => {
         <div className="mb-6 text-center text-4xl font-bold">
           Built on Reservoir
         </div>
-        {/* <div className="mx-auto max-w-3xl text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum
-          arcu molestie integer mauris sollicitudin. Aliquam turpis parturient
-          elit phasellus vel id nibh vestibulum.
-        </div> */}
       </div>
       <div className="mx-auto grid max-w-6xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <div className="grid items-center rounded-2xl bg-gradient-to-br from-[#70D3FF] to-[#7000FF] p-8 text-2xl font-bold">
