@@ -31,7 +31,7 @@ const Section2 = () => {
           Access open market &amp; pricing data
         </div>
         <div className="mb-12 text-lg text-[#EDEDED]">
-          Gain unappreciated access to market and pricing data, opening up a new
+          Gain unprecedented access to market and pricing data, opening up a new
           world of possibilities.
         </div>
         <a
