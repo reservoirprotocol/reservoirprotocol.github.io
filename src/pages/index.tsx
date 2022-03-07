@@ -140,14 +140,14 @@ const Home: FC = () => {
                 viewport={{ once: true }}
               >
                 {[
-                  'Community Marketplace',
+                  'Open Source Marketplace',
+                  'Drop-in Buy & Sell',
                   'Portfolio Tracker',
-                  'Instant Sell',
-                  'Market Maker',
-                  'Decentralized Order Book',
-                  'Pricing Model',
                   'Trait Explorer',
-                  'Floor Sweeper',
+                  'Decentralized Order Book',
+                  'Market Maker Bot',
+                  'Price Prediction',
+                  'NFT Analytics',
                 ].map((item) => (
                   <div className="flex items-center gap-2 pl-3">
                     <HiCheckCircle className="h-4 w-4 flex-none" />

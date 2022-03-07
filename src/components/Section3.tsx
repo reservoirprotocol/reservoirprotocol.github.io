@@ -15,7 +15,7 @@ const Section3 = () => {
           Collection &amp; trait-wide bids
         </div>
         <div className="mb-12 text-lg text-[#EDEDED]">
-          Finding a great deals has never been easier with Reservoir's
+          Finding a great deal has never been easier with Reservoir's
           collection and trait-wide bids.
         </div>
         <a
