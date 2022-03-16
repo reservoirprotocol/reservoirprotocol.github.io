@@ -17,8 +17,8 @@ Best of all, the API is powered by an open-source Indexer that runs entirely off
 
 ## Next Steps
 
-1) Get started with the [Hosted API](https://reservoirprotocol.github.io/docs/api/hosted-api/)  
-2) Explore some of the popular [Use Cases](https://reservoirprotocol.github.io/docs/api/use-cases/get-token-prices/)  
+1) Get started with the [Hosted API](/docs/api/hosted-api/)  
+2) Explore some of the popular [Use Cases](/docs/api/use-cases/get-token-prices/)  
 3) Fork the [Sample Marketplace](https://github.com/reservoirprotocol/sample-marketplace)
 
 
