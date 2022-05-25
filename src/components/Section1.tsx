@@ -21,7 +21,7 @@ const Section1 = () => {
         </div>
         <a
           className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-8 py-4 font-bold hover:text-white hover:no-underline "
-          href="https://github.com/reservoirprotocol"
+          href="https://github.com/reservoirprotocol/marketplace"
         >
           Visit GitHub
           <HiArrowRight className="flex-none" />
@@ -30,17 +30,17 @@ const Section1 = () => {
       <div>
         <img
           className="mb-1.5 block rounded-2xl"
-          src="/home/Loot_Exchange.webp"
+          src="/home/Gmoney_Market.webp"
           width="1416"
           height="1110"
-          alt="Screenshot of loot.exchange"
+          alt="Screenshot of Adidas Collection"
         />
         <a
           target="_blank"
           className="flex justify-end text-sm opacity-70"
-          href="https://www.loot.exchange/"
+          href="https://www.gmoney.market"
         >
-          @Loot Exchange
+          @gmoney market
         </a>
       </div>
     </motion.div>
